@@ -11,4 +11,6 @@ Huge thanks to these folks at GBAtemp: AnalogMan for data research and awesome s
 
 Also thanks to DrummerIX on FearLess Cheat Engine for the cheat table that I cross-referenced and segamot and dd777 for updating it with more stats.
 
+Big thanks to digidb.io from which I got all the Digimon portraits.
+
 Finally, shoutouts to Snodeca for her Dream Team save editor that I referenced when making this one!
