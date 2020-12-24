@@ -1,0 +1,117 @@
+0:Blank
+1:Dragon's Wrath
+2:Ironclad Defense
+3:Adroit Wisdom
+4:Feral Pulse
+5:Bull's-Eye
+6:Feint
+7:Haymaker
+8:Primal Trooper
+9:Dragon's Roar
+10:Deep Savers
+11:Nature Spirits
+12:Metal Empire
+13:Animal Colosseum
+14:Wind Guardians
+15:Justice Genome
+16:Nightmare Soldiers
+17:Flower Guard
+18:Supreme Focus
+19:Numbing Waves
+20:Full Functionality
+21:Immobility
+22:High Resolution
+23:Phoenix Feathers
+24:Poison Thorns
+25:Strange Dance
+26:Royal Commando
+27:Deep Sea Slumber
+28:Menace
+29:Trickster
+30:Destroyer
+31:Justice Union
+32:To Fight Another Day
+33:Platinum Bonus
+34:Millionaire
+35:Scavenge
+36:Analyze
+37:Fairy Protection
+38:Mysterious Scale
+39:Meditation
+40:Ocean Love
+41:Holy Ring
+42:Backwater Camp
+43:Fight or Flight
+44:Muscle Monkey Suit
+45:Hermitic Loner
+46:Swiftness
+47:Cadelfwlch Dive
+48:Holy Knight
+49:Obsidian Knight
+50:Master's Disposition
+51:Ironclad Fortification
+52:Mystic Protection
+53:All-Rounder
+54:Chaos Expert
+55:Wyvern
+56:Strategist
+57:Leopard Mode
+58:Battle Sense
+59:Miracle
+60:Unmatched Cruelty
+61:Wrath
+62:Greed
+63:Gluttony
+64:Sloth
+65:Furious Howl
+66:Envy
+67:Lust
+68:Pride
+69:Gehenna
+70:Dragon Mode
+71:Fighter Mode
+72:Holy Salvation
+73:Parallel World Tactician
+74:Destiny
+75:Innocent Eyes
+76:Aus Generics
+77:Moon-Kissed Blade
+78:Evil Heart
+79:Blaster
+80:D-Brigade
+81:Unstable Singularity
+82:Freyr
+83:Shining Burst
+84:Mirage Burst
+85:Crimson Foundation
+86:Tifaret
+87:Utopia
+88:Vampire
+89:Purge Shine
+90:Crimson Mode
+91:Human Spirit
+92:Beast Spirit
+93:Wind-Flame, Ice-Sword
+94:Dark-Lgt, Thunder-Cannon
+95:God of War
+96:Gekirin
+97:Tenryu
+98:Chiryu
+99:Blast Digivolution
+100:Feral Power
+101:Supervisor
+102:Cross Heart
+103:Infinity Dream
+104:Legend Arms
+105:Vampire King
+106:Platinum Service
+107:Digital Hazard
+108:Unwavering Defense
+109:NXEdge Style
+110:NXEdge Style
+111:NXEdge Style
+112:Counter-Attack
+113:NXEdge Style
+114:NXEdge Style
+115:Samurai Spirit
+116:Revelation

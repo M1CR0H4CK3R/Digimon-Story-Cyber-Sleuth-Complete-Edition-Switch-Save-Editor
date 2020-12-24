@@ -1,0 +1,936 @@
+0:(None)
+1:Attack (1)
+2:Attack (2)
+3:Guard
+4:Escape
+5:Change
+6:Strategy
+7:Auto
+8:Can't escape!
+9:Could not escape!
+10:No more Digimon!
+11:nil (1)
+19:Counter
+20:Paralyzed!
+21:Asleep!
+22:Immobilized by recoil!
+1001:Pepper Breath
+1002:Spitfire Blast
+1003:Diamond Shell
+1004:Summon
+1005:Thunder Cloud
+1006:Lullaby Bubble
+1007:Double Backhand
+1008:Electric Stun Blast
+1009:Blue Blaster
+1010:Rock Breaker
+1011:Blinding Ray
+1012:Crazy Giggle
+1013:Rock Fist
+1014:Goblin Strike
+1015:Marching Fishes
+1016:Black Pearl Blast
+1017:Terrier Tornado
+1018:Super Shocker
+1019:Plastic Blaze
+1020:Metal Cannon
+1021:Cog Crusher
+1022:Air Shot
+1023:Fifth Rush
+1024:Poison Ivy
+1025:Demi Darts
+1026:Spiral Twister
+1027:Ninja Blade
+1028:Veemon Headbutt
+1029:Puppy Howl
+1030:Electric Shock
+1031:Feather Slash
+1032:Seed Blast
+1033:Grand Cross
+1034:Diamond Storm
+1035:Blazing Ice
+1036:Sticky Net
+1037:Glide Horn
+1038:Tail Hammer (1)
+1039:Harpoon Torpedo
+1040:Thunder Cloud
+1041:Branch Drain
+1042:Vee Laser
+1043:Heaven's Knuckle
+1044:Pummel Whack
+1045:D-Grenade
+1046:Spiral Blow
+1047:Electro Shocker
+1048:Mature Poop
+1049:Dumdum Uppercut
+1050:Fox Fire
+1051:Will-o'-Wisp
+1052:Exhaust Flame
+1053:Data Crusher
+1054:Mega Flame
+1055:Chrono Breaker
+1056:Scissor Claw
+1057:Symphony Crusher
+1058:Golden Rush
+1059:Hyper Heat
+1060:Sunshine Beam
+1061:Ice Blast
+1062:Mega Burst
+1063:Poop
+1064:Meteor Shower
+1065:Spiking Strike
+1066:Crystal Cloud
+1067:Hyper Cannon
+1068:Fire Breath
+1069:Lightning Paw
+1070:Death Claw
+1071:Needle Spray
+1072:Power Metal
+1073:Poop Dunk
+1074:Poop Toss
+1075:Meteor Wing
+1076:Death Charm
+1077:V-Nova Blast
+1078:Rare Metal Poop
+1079:Lightning Paw
+1080:Super Stinky Jet
+1081:Kunai Wing
+1082:Burning Fist
+1083:Sub-zero Ice Punch
+1084:Fist of the Beast King
+1085:Razor Wind
+1086:Turbo Stinger
+1087:Horn Buster
+1088:Bunny Blades
+1089:Spiral Sword
+1090:Galactic Flare
+1091:Spider Shooter
+1092:Night Raid
+1093:Dragon Impulse (1)
+1094:Love Serenade
+1095:Celestial Arrow
+1096:Double Scissor Claw
+1097:Shadow Wing
+1098:Genocidal Gears
+1099:Nitro Stinger
+1100:The King of Fists
+1101:Desolation Claw
+1102:Disaster Blaster
+1103:Cherry Bomb
+1104:Top Gun
+1105:Superstar Uppercut
+1106:Oblivion Bird
+1107:Vulcan's Hammer
+1108:Talisman of Light
+1109:Wind Cutter Sword
+1110:Nightmare Syndrome
+1111:Heavy Metal Fire
+1112:Musical Fist
+1113:Metal Meteor
+1114:Berserk Sword (1)
+1115:Digital Bomb
+1116:Death Parade Blaster
+1117:Fist of Ice
+1118:Trick or Treat
+1119:Pit Bomb
+1120:Dark Pupil
+1121:Cold Flame (1)
+1122:Unidentified Flying Kiss
+1123:Tidal Wave
+1124:Heaven's Gate
+1125:Winning Knuckle
+1126:Smile Bomber
+1127:Lightning Javelin
+1128:Genocide Attack
+1129:Atomic Blaster
+1130:Giga Destroyer
+1131:Revenge Flame
+1132:Nuclear Laser
+1133:Energy Bomb
+1134:Hearts Attack (1)
+1135:Savage Emperor
+1136:Trident Revolver
+1137:Lila Shower
+1138:Golden Triangle
+1139:Flower Cannon
+1140:Dead or Alive
+1141:Darkness Wave
+1142:Wolf Claw
+1143:Pandora Dialogue (1)
+1144:Blade of the Dragon King (1)
+1145:The Ray of Victory (1)
+1146:Brain Rupture
+1147:Megadeath
+1148:Positron Laser
+1149:Arctic Blizzard
+1150:Venom Infusion
+1151:Terra Force
+1152:Pendragon's Glory (1)
+1153:Eden's Javelin
+1154:Will-O'-Wisp Slash (1)
+1155:Demonic Disaster (1)
+1156:Quake!Blast!Fire!Father! (1)
+1157:Taizoukai Mandala
+1158:Dimension Scissor
+1159:Destruction Crush
+1160:Waltz's End (1)
+1161:Heaven's Judgment
+1162:Howling Crusher
+1163:Amethyst Mandala
+1164:GeoGrey Sword
+1165:Justice Kick
+1166:Bifrost
+1167:Strike of the Seven Stars
+1168:Burst Shot
+1169:Mach Stinger V (1)
+1170:Soul Core Attack
+1171:Catastrophe Cannon (1)
+1172:Flame Inferno
+1173:Lightning Joust
+1174:Wyvern's Breath (1)
+1175:Extinction Wave
+1176:Atomic Ray
+1177:Judgement of the Blade (1)
+1178:Pandemonium Lost (1)
+1179:Flashy Boss Punch (1)
+1180:Trump Sword
+1181:Puppet Pummel
+1182:Platinum Junk
+1183:Dark Terra Force
+1184:Smile Warhead
+1185:Sorrow Blue
+1186:Giga Blaster
+1187:Double Impact (1)
+1188:Eternal Nightmare
+1189:Starlight Explosion
+1190:Fire Tornado
+1191:Tomahawk Stinger (1)
+1192:Chaos Degradation
+1193:Ocean Love
+1194:Strike Roll
+1195:Full Moon Blaster
+1196:Infinity Cannon (1)
+1197:Banana Slip
+1198:Ice Wolf Claw
+1199:Garuru Tomahawk
+1200:River of Power
+1201:Terrors Cluster
+1202:Biting Crush (1)
+1203:Phantom Pain (2)
+1204:Celestial Blade
+1205:Spiral Masquerade (1)
+1206:Thorn Whip
+1207:Seven's Fantasia
+1208:Omni Sword
+1209:Transcendent Sword (1)
+1210:Supreme Cannon (1)
+1211:Vulcan Crusher
+1212:Gift of Darkness (1)
+1213:Divine Atonement
+1214:Flaming Fist
+1215:S-Gold Solar Storm
+1216:Golden Triangle
+1223:L Express Attack
+1224:Shield of the Just
+1225:Table Flip
+1226:Victory Sword
+1227:Soul Digitalization
+1228:Plasma Shot
+1229:Odin's Breath
+1230:Breath of the Gods
+1231:Dragon's Roar (1)
+1232:Fist of Athena (1)
+1233:Dragonic Impact (1)
+1234:Black Aura Blast
+1235:Weltgeist
+1236:Great Tornado
+1237:Black Tornado
+1238:Judecca Prison
+1239:Good Night Moon
+1240:Bubbles (1)
+1241:Bit Fire
+1242:Little Horn
+1243:Freeze Fang
+1244:Full Moon Kick
+1245:Shiny Ring
+1246:Hyper Smell
+1247:Frozen Claw
+1248:Lightning Spear
+1249:Corona Destroyer
+1250:Dark Roar
+1251:Bantyo Blade
+1252:Dark Prominence
+1253:Fenrir Sword
+1254:Final Shining Burst
+1255:Full Moon Meteor Impact
+1256:Mourning Dance
+1257:Aguichant Lèvres
+1258:Data Drain
+1259:Soul Absorption
+1260:Eye of Nightmares
+1261:Gear Stinger
+1262:Knuckle Beater
+1263:Tearing Shot
+1264:Pyro Punch
+1265:Prison Fist
+1266:Zwei Sieger
+1267:Spinning Needle
+1268:Crimson Curse
+1269:Sticker Blade
+1270:Fossil Bite
+1271:Fang Strike
+1272:Fif Cross
+1273:Volcanic Strike
+1274:Ambush Crunch
+1275:Sludge
+1276:Moon Night Bomb
+1277:Dot Matrix
+1278:Corona Blaster
+1279:Speed Star
+1280:Miracle Bomb
+1281:Cross Blade
+1282:Lunatic Dance
+1283:Nail Bone
+1284:Trident Saber
+1285:Forbidden Trident
+1286:Hell Masquerade
+1287:Tri-Horn Attack
+1288:Heat Wave
+1289:Big Bang Voice
+1290:Earth-Shattering Stomp
+1291:Dot Matrix
+1292:Exile Spear
+1293:Aurora Undulation
+1294:Firedrake Strike
+1295:Crystal Revolution (1)
+1296:Supersonic Voice
+1297:God Flame
+1298:Shine of Bee
+1299:Invincible Sword
+1300:Quo Vadis
+1301:Brave Metal
+1302:Vortex Penetration
+1303:Volcanic Driver (1)
+1304:Machinegun Destroyer
+1305:Megiddo Flame
+1306:Thousand Fists
+1307:Black Rain
+1308:Ultimate Flare
+1309:God Matrix (1)
+1310:Dystopia Lances
+1311:Aurora Blaster
+1312:Celestial Blade
+1313:Heaven's Thunder
+1314:Baby Breath
+1315:Fungus Crusher (1)
+1316:Iceball Bomb
+1317:D-Grenade
+1318:Blue Flare Breath
+1319:Green Flare Breath
+1320:Great Weight
+1321:Holy Shot
+1322:Blaze Sonic Breath
+1323:Scrapless Claw
+1324:Animal Nail
+1325:Soul Chopper
+1326:Hyper Infinity Cannon
+1327:Destroyed Hook
+1328:Monkey Wrench
+1329:Divine Dragon Slash
+1330:Destroyed Rush
+1331:Ultimate Ouryuken
+1332:Miracle Bomb
+1333:Mickey Bullet
+1334:Bless Fire
+1335:Divine Pierce
+1336:Protect Wave
+1337:Divine Pierce (Awake)
+1338:Protect Wave (Awake)
+1339:Mickey Bullet (Awake)
+1340:Bless Fire (Awake)
+1341:Fiery Fastball
+1342:Hard Rock Spirit
+1343:Flame Cannon
+1344:Transcendent Sword (2)
+1345:Supreme Cannon (2)
+1346:Infinity Dream (1)
+1347:Infinity Dream (2)
+1348:Twenty Dive
+1349:Vantheon
+1350:Blinded
+1351:Zwei Glänze
+1352:Starlight Velocity
+1353:Blade of the Dragon King (2)
+1354:Bubble Blow
+1355:Super Bubble Blow
+1356:Adhesive Bubble Blow
+1357:Glare Eye
+1358:Smile Fang
+1359:Bubbles (2)
+1360:Bite
+1361:Elastic Bubbles
+1362:Soap Flower
+1363:Air Bubbles
+1364:Fox Tail
+1365:Poison Bubbles
+1366:Nail Scratch
+1367:Cheese Bomb
+1368:Ninja Claw
+1369:Freezing Breath
+1370:Eye of the Gorgon (1)
+1371:Flying Kick
+1374:Lightning Joust
+1375:Shield of the Just
+1376:Soul Digitalization
+1377:Spiral Masquerade (2)
+1378:Fist of Athena (2)
+1379:Katana Attack
+1380:Metal Armor Blade
+1381:Legendary Dragon Blade
+1382:Eiseiryuoujin
+1383:Darkness Zone
+3000:Wolkenapalm I
+3001:Wolkenapalm II
+3002:Wolkenapalm III
+3003:Burst Flame I
+3004:Burst Flame II
+3005:Burst Flame III
+3006:Meteor Fall I
+3007:Meteor Fall II
+3008:Meteor Fall III
+3009:Ice Archery I
+3010:Ice Archery II
+3011:Ice Archery III (1)
+3012:Hydro Water I
+3013:Hydro Water II
+3014:Hydro Water III
+3015:Ocean Wave I
+3016:Ocean Wave II
+3017:Ocean Wave III
+3018:Crescent Leaf I
+3019:Crescent Leaf II
+3020:Crescent Leaf III
+3021:Gaia Element I
+3022:Gaia Element II
+3023:Gaia Element III
+3024:Rune Forest I
+3025:Rune Forest II
+3026:Rune Forest III
+3027:Nanomachine Break I
+3028:Nanomachine Break II
+3029:Nanomachine Break III
+3030:Heaven's Thunder I
+3031:Heaven's Thunder II
+3032:Heaven's Thunder III
+3033:Thunder Fall I
+3034:Thunder Fall II
+3035:Thunder Fall III
+3036:Comet Hammer I
+3037:Comet Hammer II
+3038:Comet Hammer III
+3039:Grand Rock I
+3040:Grand Rock II
+3041:Grand Rock III
+3042:Awesome Quake I
+3043:Awesome Quake II
+3044:Awesome Quake III (1)
+3045:Wind Claw I
+3046:Wind Claw II
+3047:Wind Claw III
+3048:Sonic Void I
+3049:Sonic Void II
+3050:Sonic Void III
+3051:Gale Storm I
+3052:Gale Storm II
+3053:Gale Storm III
+3054:Saint Knuckle I
+3055:Saint Knuckle II
+3056:Saint Knuckle III
+3057:Holy Light I
+3058:Holy Light II
+3059:Holy Light III
+3060:Shining Laser I
+3061:Shining Laser II
+3062:Shining Laser III
+3063:Destruction Cannon I
+3064:Destruction Cannon II
+3065:Destruction Cannon III (1)
+3066:Nightmare I
+3067:Nightmare II
+3068:Nightmare III
+3069:Hell Crusher I
+3070:Hell Crusher II (1)
+3071:Hell Crusher III (1)
+3072:Heavy Strike I
+3073:Heavy Strike II
+3074:Heavy Strike III (1)
+3075:Power Energy I
+3076:Power Energy II
+3077:Power Energy III
+3078:Mach Rush I
+3079:Mach Rush II
+3080:Mach Rush III
+3081:Venom Trap
+3082:Panic Wisp
+3083:Ripping Net
+3084:Idle Bubble
+3085:Shock
+3086:Texture Blow
+3087:Character Reversal
+3088:Destruction
+3089:Support End
+3090:Attack Charge
+3091:Guard Charge
+3092:Mental Charge
+3093:Speed Charge
+3094:Agility Charge
+3095:Critical Charge
+3096:Attack Break
+3097:Guard Break
+3098:Mental Break
+3099:Speed Break
+3100:Attack Charge Field (1)
+3101:Guard Charge Field (1)
+3102:Mental Charge Field (1)
+3103:Speed Charge Field (1)
+3104:Attack Break Field
+3105:Guard Break Field
+3106:Mental Break Field
+3107:Speed Break Field
+3108:Heal
+3109:X-Heal (1)
+3110:Final Heal
+3111:Aura
+3112:X-Aura
+3113:Final Aura
+3114:Revive
+3115:Perfect Revival (1)
+3116:Anti-Poison
+3117:Anti-Paralysis
+3118:Anti-Sleep
+3119:Anti-Panic
+3120:Anti-Stun
+3121:Antidote
+3122:Anti-Bug
+3123:Restore
+3124:Cross-Counter
+3125:Mirror Reflection
+3127:Chain Plus
+3128:Chain Minus
+3129:Chain Max
+3130:Chain Loss
+3131:Physical Drain
+3132:Spirit Drain
+3133:Status Barrier
+3134:Safety Guard
+3135:Acceleration Boost
+3136:Escape Dash
+3137:Hit Charge
+3138:Dispel
+3500:Logon
+3501:Overheat
+3502:Shooting...
+3503:Auto Repair
+3504:Can you feel it?
+3505:Spirit Crash
+3506:Sweat, beautiful sweat! (1)
+3507:Sweat, beautiful sweat! (2)
+3508:Sweat, beautiful sweat! (3)
+3509:Sweat, beautiful sweat! (4)
+3510:Sweat, beautiful sweat! (5)
+3511:Fool...
+3512:Hell Crusher II (2)
+3513:Hell Crusher III (3)
+3514:X-Heal (2)
+3515:[f1あそぶ]
+3516:[f1へんしん]
+3517:[f1なおす]
+3518:[f1もどす]
+3519:Observing... (1)
+3520:Texture Field
+3521:Life Drain
+3522:Magic Binge!
+3523:I will eat you up!
+3524:Come whenever!
+3525:Do you want to play?
+3526:You seem down.
+3527:Feeding Frenzy
+3528:Temptation
+3529:Plaything
+3530:Belphemon is sleeping...
+3531:Lightweight
+3532:Battle
+3533:Breathing is labored...
+3534:Ambrose of Demise
+3535:Caledfwlch Rage
+3536:Playtime is over!
+3537:Caledfwlch Rage
+3538:Assault Stance (1)
+3539:Guard Stance (1)
+3540:Destabilizing Stance (1)
+3541:Assault Stance (2)
+3542:Guard Stance (2)
+3543:Destabilizing Stance (2)
+3544:Not here...
+3545:Show me your strength.
+3546:It's hot!
+3547:Power Lust
+3548:Power Impulse
+3549:Power Runaway
+3550:Tranquility
+3551:Gallantmon's Inheritance (1)
+3552:Omnimon's Inheritance (1)
+3553:Gallantmon's Inheritance (2)
+3554:Alphamon's Inheritance (1)
+3555:Final Holy Knight
+3556:Omnimon's Inheritance (2)
+3557:Alphamon's Inheritance (2)
+3558:Ephemeral Humming Bird
+3559:Start charging!
+3560:Lost balance! (1)
+3561:Regained balance! (1)
+3562:Lost balance! (2)
+3563:Regained balance! (1)
+3564:Arrogant...
+3565:Do your best, Omnimon!
+3566:Crazed Meteor Fall
+3567:Requiem Ocean Wave
+3568:Violated Rune Forest
+3569:Crucified Thunder Fall
+3570:Blackout Awesome Quake
+3571:Purging Gale Storm
+3572:Regression Shining Laser
+3573:Condemning Hell Crusher
+3574:Banishing Mach Rush
+3575:Power Sacrifice
+3576:Magic Sacrifice
+3577:Falling Bloom
+3578:Final Blow
+3579:I'm mad!
+3580:I'm really mad!
+3581:I'm really, really mad!
+3582:I am worried...
+3583:Resting...
+3584:Starting up again...
+3585:5...
+3586:4...
+3587:3...
+3588:2...
+3589:1...
+3590:Let's end this...
+3591:See y'all later!
+3592:Entering is forbidden...
+3593:Resentment
+3594:Resentment -Serious-
+3595:Resentment -Extreme-
+3596:Sleep Status
+3597:Hinukamuy HQ
+3598:At Rene Pol Relief
+3599:Full Moon
+3600:New Moon
+3601:Moon Blessing
+3602:Analysis Complete (1)
+3603:Analysis Complete (2)
+3604:Analysis Complete (3)
+3605:Analysis Complete (4)
+3606:Duel
+3607:Break my illusion!
+3608:Show me your power.
+3609:The forefathers' sword?
+3610:Amazing...
+3611:I will nullify all attacks!
+3612:Loss of Power
+3613:All power is lost.
+3614:Silence
+3615:End Times
+3616:I will eradicate you...
+3617:Ruinous Destruction
+3618:I'm delighted!
+3619:I'm angry!
+3620:I'm sad!
+3621:I'm happy!
+3622:Observing... (2)
+3623:Operation
+3624:Upgrade
+3625:Build Arm
+3626:Clap Hand
+3627:Stop (1)
+3628:Restart (1)
+3629:Stop (2)
+3630:Restart (2)
+3631:Reverse Field
+3632:Connect Chain
+3633:Chaos Power Absorb
+3634:Holy Knight Power Absorb
+3635:Data is converging! (1)
+3636:Data is converging! (2)
+3637:Undo
+3638:Repair
+3639:Life Drain
+3640:Attack Charge Field (2)
+3641:Guard Charge Field (2)
+3642:Mental Charge Field (2)
+3643:Speed Charge Field (2)
+3644:Repel Program On...
+3645:Erase Program On...
+3646:20% Complete...
+3647:40% Complete...
+3648:80% Complete...
+3649:100% Complete.
+3650:100% Complete.
+3651:Cleanup
+3652:System Update (1)
+3653:System Update (2)
+3654:System Update (3)
+3655:System Update (4)
+3656:System Update (5)
+3657:System Update (6)
+3658:System Update (7)
+3659:System Update (8)
+3660:I'll Show You! (1)
+3661:Out of The Way! (1)
+3662:Out of The Way! (2)
+3663:Disappear!
+3664:Enraged Escape (1)
+3665:Enraged Escape (2)
+3666:Consuming All
+3667:Vampiric Cajolery
+3668:Having Fun? (1)
+3669:Having Fun? (2)
+3670:I Won't Lose!
+3671:Excitement
+3672:Groooan...
+3673:Shutdown
+3674:Mandate
+3675:Self-Restore
+3676:Countdown "3" (1)
+3677:Countdown "2" (1)
+3678:Countdown "1" (1)
+3679:Countdown "3" (2)
+3680:Countdown "2" (2)
+3681:Countdown "1" (2)
+3682:Countdown Halted
+3683:Malfunction
+3684:Countdown #1 Start
+3685:Countdown #2 Start
+3686:You Want to Go Home...
+3687:Form Change: Magic
+3688:Form Change: Destruction
+3689:Load Memory (1)
+3690:Memory Fragment (1)
+3691:Load Memory (2)
+3692:Memory Fragment (2)
+3693:Load Memory (3)
+3694:Memory Fragment (3)
+3695:Load Memory (4)
+3696:Memory Fragment (4)
+3697:Release Memory
+3698:Energy Stock "2"
+3699:Energy Stock "1"
+3700:Energy Stock "0"
+3701:Protected... (1)
+3702:Protected... (2)
+3703:Protection Gone!
+3704:Self-Restore
+3705:Tekeli-li
+3706:Curse
+3707:Younger Sister Love
+3708:Older Sister Love
+3709:Normalize
+3710:I'll Show You! (2)
+3711:I'll Use This, Thanks.
+3712:Awesome Quake III (2)
+3713:God Matrix (2)
+3714:Overclock (1)
+3715:Recovery Code (1)
+3716:Ones and Zeroes
+3717:Breath of Valor
+3718:Special Defense
+3719:Forgetting Myself
+3720:Number of the Beast
+3721:Raise the Roof
+3722:Six Actions, Six Boosts
+3723:Immortal King
+3724:Dubious Smile
+3725:Let's Play A Bit...
+3726:Regeneration
+3727:Destruction Cannon III (2)
+3728:Ice Archery III (2)
+3729:Heavy Strike III (2)
+3730:Return to Power (1)
+3731:Return to Power (2)
+3732:Return to Power (3)
+3733:I'm not done yet
+3734:Don't underestimate me!
+3735:Leave it to Lily (1)
+3736:Leave it to Lily (2)
+3737:No holding back
+3738:Here goes
+3739:Holy Dragon Trial
+3740:Evil Dragon Trial
+3741:Divine Dragon Trial
+3742:Performance
+3743:Finishing Hold
+4000:HP Capsule C
+4001:HP Capsule B
+4002:HP Capsule A
+4003:HP Spray C
+4004:HP Spray B
+4005:HP Spray A
+4006:SP Capsule C
+4007:SP Capsule B
+4008:SP Capsule A
+4009:SP Spray B
+4010:SP Spray A
+4011:Medical Spray
+4012:Medical Spray DX
+4013:Poison Recovery
+4014:Panic Recovery
+4015:Paralysis Recovery
+4016:Sleep Recovery
+4017:Stun Recovery
+4018:Sprite Recovery
+4019:Bug Recovery
+4020:Multi-Recovery
+4021:Multi-Recovery DX
+4022:Revival Capsule
+4023:Revival Capsule DX
+4024:Full Revival Spray
+4025:ATK Boost
+4026:DEF Boost
+4027:INT Boost
+4028:SPD Boost
+4029:HIT Boost
+4030:AGL Boost
+4031:CRT Boost
+4032:Escape Gate
+4033:System Defrag
+4034:Overclock (2)
+4035:Recovery Code (2)
+4036:Kyoko's Coffee (Rainbow)
+4037:Yuuko's Grand Feast
+4038:DVD: Wicked Dragon
+4039:High Recovery Code
+4040:Overclock (3)
+4043:Erika's Tarte Tatin
+4044:Ryuji's Bento
+4045:Chitose's Cookie
+4046:Yu's Chocolate Cake
+4047:Yuuko's Omelet
+4048:Fei's Warabimochi
+4049:Date's Bun
+4050:Matayoshi's Milk
+4051:Nokia's Kuzumochi
+4052:Agumon & Gabumon's Meat
+4053:Arata's Muffin
+4054:Lillymon's Meat
+4055:Renamon's Meat
+4056:Beelzemon's Meat
+4057:Leomon's Meat
+4058:nil (2)
+4059:Infinity Cannon (2)
+5000:Attack (3)
+6000:Huge Crystal (1)
+6001:Erode Terminal (1)
+6002:Melt Processor (1)
+6003:Memory Divide
+6004:Mastermind Port
+6005:Interrupt Handler
+6006:Tyrant Cluster
+6007:Vanquish Drive
+6008:World Restart
+6009:Inspect Handler
+6010:Pendragon's Glory (2)
+6011:Pandora Dialogue (2)
+6012:Dragonic Impact (2)
+6013:Erode Terminal (2)
+6014:Melt Processor (2)
+6015:Spiral Masquerade (3)
+6016:Fist of Athena (3)
+6017:Huge Crystal (2)
+6018:Huge Crystal (3)
+6019:Huge Crystal (4)
+6020:Wyvern's Breath (2)
+6021:Dragon's Roar (2)
+6022:Pandemonium Lost (2)
+6023:Pandemonium Lost (3)
+6024:Mach Stinger V (2)
+6025:Pendragon's Glory (3)
+6026:Dragonic Impact (3)
+6027:Flashy Boss Punch (2)
+6028:Flashy Boss Punch (3)
+6029:Transcendent Sword (3)
+6030:The Ray of Victory (2)
+6031:Waltz's End (2)
+6032:Will-O'-Wisp Slash (2)
+6033:Flame Inferno (1)
+6034:Flame Inferno (2)
+6035:Flame Inferno (3)
+6036:Biting Crush (2)
+6037:Double Impact (2)
+6038:Quake!Blast!Fire!Father! (2)
+6039:Judgement of the Blade (2)
+6040:Omni Sword (2)
+6041:Hearts Attack (2)
+6042:Supreme Cannon (3)
+6043:Demonic Disaster (2)
+6044:Catastrophe Cannon (2)
+6045:Cold Flame (2)
+6046:Tomahawk Stinger (2)
+6047:Berserk Sword (2)
+6048:Phantom Pain (2)
+6049:Gift of Darkness (2)
+6050:Repel Program α
+6051:Repel Program β
+6052:Repel Program γ
+6053:Repel Program δ
+6054:Erase Program α
+6055:Erase Program β
+6056:Erase Program γ
+6057:Erase Program δ
+6058:Assault Rush
+6059:Spread Shot
+6060:Memory Leak
+6061:World Nostalgic (1)
+6062:World Nostalgic (2)
+6063:World Nostalgic (3)
+6064:Ain Soph Aur
+6065:Lost Paradise
+6066:Tail Hammer (2)
+6067:Infinity Dream (3)
+6068:Fungus Crusher (2)
+6069:Eye of the Gorgon (2)
+6070:Crystal Revolution (2)
+6071:Crystal Revolution (3)
+6072:Eye of the Gorgon (3)
+6073:Crystal Revolution (4)
+6074:Volcanic Driver (2)
+8000:Physical Damage
+8001:Magic Damage
+8002:DEF-Immune Damage
+8003:INT-Immune Damage
+8004:HP % Damage
+8005:SP % Damage
+8006:Fixed Damage
+8007:HP Recovery
+8008:HP % Recovery
+8009:SP % Recovery
+8010:HP/SP % Recovery
+8011:Fixed HP Recovery
+8012:Fixed SP Recovery
+8013:Revival
+8014:Force HP 1
+8015:Debug: Destroy All Foes
+8016:Debug: All Foe Debuffs
+8017:Debug: All Foes Dead
+8018:Debug: Kill Ally
+8019:Debug: CRT Single Atk 1
+8020:Debug: CRT All Atk 2
+8021:Test Skill 1
+8022:Test Skill 2
+8023:Test Skill 3
+8024:Test Skill 4
+9001:Perfect Revival (2)
+9002:Blade of the Dragon King (3)
+9003:Bubbles (3)
+9004:Dragon Impulse (2)
