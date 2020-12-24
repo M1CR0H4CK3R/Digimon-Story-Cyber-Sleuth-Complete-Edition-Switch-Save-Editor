@@ -1,0 +1,364 @@
+400:AeroVeedramon
+050:Agumon
+143:Agumon (Blk)
+761:Agumon BK      (DLC)
+762:Agumon YL      (DLC)
+763:Agumon Taichi  (DLC)
+764:Agumon ???     (DLC)
+765:Agumon Shibuya (DLC)
+676:Agunimon
+011:Airdramon
+416:Alphamon
+901:Alphamon NX
+766:Alphamon Ouryuken
+342:Andromon
+087:Angemon
+148:Angewomon
+711:Ankylomon
+731:Antylamon
+328:Apocalymon
+015:Aquilamon
+064:Arcadiamon Champion
+062:Arcadiamon In-Tr.
+066:Arcadiamon Mega
+063:Arcadiamon Rookie
+065:Arcadiamon Ultimate
+067:Arcadiamon Ultra
+707:Armadillomon
+106:Armageddemon
+013:Bakemon
+049:BanchoLeomon
+115:BaoHuckmon
+036:Barbamon
+035:Beelzemon
+775:Beelzemon BM
+040:Belphemon RM
+439:Belphemon SM
+389:Betamon
+308:Birdramon
+307:Biyomon
+043:BlackGatomon
+753:BlackKingNumemon
+175:BlackWarGreymon
+177:BlueMeramon
+431:Boltmon
+317:Botamon
+214:Brakedramon
+514:Bukamon
+679:BurningGreymon
+727:CannonBeemon
+044:CatchMamemon
+422:Chaosdramon
+150:ChaosGallantmon
+772:Chaosmon
+118:Chaosmon VA
+379:Cherrymon
+084:Chirinmon
+020:Chuumon
+398:Clockmon
+130:Coelamon
+218:Coredramon (Blue)
+209:Coredramon (Green)
+734:Craniamon
+038:Creepymon
+004:Crescemon
+721:Crowmon
+703:Crusadermon
+902:Crusadermon NX
+719:Cyberdramon
+452:Cyclonemon
+771:Darkdramon
+576:Datamon
+097:DemiDevimon
+093:Devimon
+632:Diaboromon
+733:Dianamon
+374:Digitamamon
+023:Dinobeemon
+396:Dorugamon
+019:Dorugoramon
+407:DoruGreymon
+112:Dorumon
+457:Dracmon
+208:Dracomon
+129:Dragomon
+699:Duramon
+700:Durandamon
+738:Dynasmon
+451:Ebemon
+564:Elecmon
+311:Etemon
+215:Examon
+365:ExVeemon
+705:Falcomon
+042:FanBeemon
+716:Flamedramon
+370:Frigimon
+151:Gabumon
+713:Gabumon (Blk)
+744:Gaiomon
+126:Gallantmon
+105:Gallantmon CM
+905:Gallantmon NX
+688:Gankoomon
+068:GaoGamon
+055:Gaomon
+710:Gargomon
+309:Garudamon
+012:Garurumon
+714:Garurumon (Blk)
+092:Gatomon
+569:Gazimon
+399:Gekomon
+054:GeoGreymon
+729:Geremon
+402:Gigadramon
+191:Ginryumon
+111:Goblimon
+113:GoldNumemon
+048:Goldramon
+005:Golemon
+343:Gomamon
+595:Gotsumon
+026:Grademon
+032:GranDracmon
+423:GranKuwagamon
+403:GrapLeomon
+326:Greymon
+712:Greymon (Blue)
+704:GroundLocomon
+211:Groundramon
+078:Growlmon
+083:Gryphonmon
+341:Guardromon
+760:Guardromon (Gold)
+090:Guilmon
+687:Hackmon
+009:Hagurumon
+706:Hawkmon
+306:HerculesKabuterimon
+426:HiAndromon
+082:HippoGryphonmon
+192:Hisyaryumon
+310:Hououmon
+022:Hudiemon
+730:IceDevimon
+758:Icemon
+344:Ikkakumon
+732:Imperialdramon DM
+419:Imperialdramon FM
+420:Imperialdramon PM
+081:Impmon
+627:Infermon
+749:Jesmon
+737:Justimon
+304:Kabuterimon
+677:KaiserGreymon
+681:KendoGarurumon
+086:Kentaurosmon
+626:Keramon
+774:Kerpymon (Blk)
+735:Kerpymon (Good)
+127:KingEtemon
+718:Knightmon
+322:Koromon
+053:Kudamon
+629:Kuramon
+630:Kurisarimon
+367:Kuwagamon
+754:Kuzuhamon
+395:Kyubimon
+107:LadyDevimon
+056:Lalamon
+003:Lekismon
+072:Leomon
+739:Leopardmon
+743:Leopardmon LM
+903:Leopardmon NX
+037:Leviamon
+073:Lilamon
+034:Lilithmon
+359:Lillymon
+680:Lobomon
+750:Lopmon
+742:Lotosmon
+390:Lucemon
+039:Lucemon FM
+435:Lucemon SM
+002:Lunamon
+074:MachGaogamon
+385:Machinedramon
+101:MagnaAngemon
+453:Magnadramon
+678:MagnaGarurumon
+675:MagnaGarurumon (SV)
+382:Magnamon
+412:Mamemon
+024:MarineAngemon
+748:Mastemon
+031:Matadormon
+301:Megadramon
+741:MegaGargomon
+305:MegaKabuterimon
+132:MegaSeadramon
+047:Megidramon
+010:Meramon
+080:Merukimon
+312:MetalEtemon
+135:MetalGarurumon
+182:MetalGarurumon (Blk)
+302:MetalGreymon
+327:MetalGreymon (Blue)
+413:MetalMamemon
+434:MetalSeadramon
+364:MetalTyrannomon
+756:Meteormon
+747:Minervamon
+095:MirageGaogamon
+777:MirageGaogamon BM
+369:Monochromon
+458:Monodramon
+061:Monzaemon
+388:Motimon
+759:MudFrigimon
+607:Mushroomon
+085:Myotismon
+375:Nanimon
+075:Neptunemon
+070:Numemon
+515:Nyaromon
+394:Ogremon
+401:Okuwamon
+088:Omnimon
+904:Omnimon NX
+757:Omnimon Zwart
+683:OmniShoutmon
+421:Ophanimon
+582:Otamamon
+193:Ouryumon
+387:Pabumon
+567:Pagumon
+408:Paildramon
+348:Palmon
+041:Pandamon
+409:Panjyamon
+096:Patamon
+702:Peckmon
+584:Phantomon
+427:Piedmon
+060:PileVolcamon
+410:Piximon
+069:PlatinumNumemon
+752:PlatinumSukamon
+450:Plesiomon
+320:Poyomon
+429:PrinceMamemon
+596:Pumpkinmon
+437:Punimon
+428:Puppetmon
+722:Rapidmon
+751:Rapidmon (Armor)
+025:Raptordramon
+590:Raremon
+740:Ravemon
+778:Ravemon BM
+391:Renamon
+077:Reppamon
+071:RizeGreymon
+057:Rosemon
+779:Rosemon BM
+383:RustTyranomon
+190:Ryudamon
+424:SaberLeomon
+425:Sakuyamon
+361:Salamon
+030:Sangloupmon
+116:SaviorHuckmon
+347:Seadramon
+315:Seraphimon
+723:Shakkoumon
+455:ShellNumemon
+094:ShineGreymon
+776:ShineGreymon BM
+376:ShogunGekomon
+682:Shoutmon
+720:Silphymon
+782:Sistermon B (Awake.)
+781:Sistermon Blanc
+784:Sistermon C (Awake.)
+783:Sistermon Ciel
+404:SkullGreymon
+406:SkullMeramon
+006:SkullSatamon
+213:Slayerdramon
+755:Socerimon
+728:Solarmon
+014:Starmon
+091:Stingmon
+016:Strikedramon
+313:Sukamon
+058:Sunflowmon
+079:SuperStarmon
+104:Susanomon
+709:Syakomon
+512:Tanemon
+621:Tankmon
+405:Taomon
+303:Tentomon
+701:Terriermon
+745:TigerVespamon
+440:Titamon
+349:Togemon
+325:Tokomon
+708:ToyAgumon
+033:Triceramon
+631:Tsumemon
+438:Tsunomon
+102:Turuiemon
+363:Tyrannomon
+128:TyrantKabuterimon
+417:UlforceVeedramon
+548:Unimon
+411:Vademon
+773:Valkyrimon
+117:Varodurumon
+397:Veedramon
+114:Veemon
+314:Vegiemon
+600:VenomMyotismon
+346:Vikemon
+059:Volcanomon
+321:Wanyamon
+027:WarGreymon
+134:WarGrowlmon
+454:Waspmon
+140:WereGarurumon
+715:WereGarurumon (Blk)
+021:Whamon
+210:Wingdramon
+726:Wisemon
+377:Wizardmon
+393:Woodmon
+392:Wormmon
+510:Yokomon
+698:ZubaEagermon
+697:Zubamon
+345:Zudomon
+800:Eater (Purebreed Mode)
+801:Eater (Humanoid Mode)
+802:Eater (Eve)
+803:Eater (Adam)
+804:Eater (Mother)
+805:Eater (Arata)
+806:Eater (Right Hand)
+807:Eater (Body)
+808:Eater (Left Hand)
+809:Eater (Right Wings)
+810:Eater (Left Wings)
+811:Eater (Eye?)
+814:Eater (Big Eye?)
+815:Eater (Purebreed+Mishima Erika)
+816:Eater (EDEN)
+910:Arkadimon (Perfect) (Giant)
+911:Arkadimon (Ultimate) (Giant)
+912:Arkadimon (Super Ultimate) (Giant)
