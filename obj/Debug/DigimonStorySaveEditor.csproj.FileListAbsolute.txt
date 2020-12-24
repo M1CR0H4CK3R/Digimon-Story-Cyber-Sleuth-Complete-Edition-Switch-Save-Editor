@@ -1,0 +1,10 @@
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\bin\Debug\DigimonStorySaveEditor.exe.config
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\bin\Debug\DigimonStorySaveEditor.exe
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\bin\Debug\DigimonStorySaveEditor.pdb
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.csprojAssemblyReference.cache
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.MainMenu.resources
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.Properties.Resources.resources
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.csproj.GenerateResource.cache
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.exe
+C:\Users\kevin\source\repos\DigimonStorySaveEditor\obj\Debug\DigimonStorySaveEditor.pdb
