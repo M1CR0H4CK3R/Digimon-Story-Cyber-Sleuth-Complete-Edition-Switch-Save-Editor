@@ -45,7 +45,7 @@ namespace DigimonStorySaveEditor
 
             //Read in first Digimon in party data
             #region DigimonPartySlot1
-            #region Main
+            #region Main1
             //Check to see if it exists
             savegameBr.BaseStream.Position = 0x3CA9C;
             if (savegameBr.ReadByte() != 0)
@@ -95,7 +95,7 @@ namespace DigimonStorySaveEditor
                 comboBoxCSDigmonPartySlot1SupportSkill.Text = convertsupportSkillsIDtoString(digimonPartySlot1SupportSkill);
                 #endregion
 
-                #region Stats
+                #region Stats1
                 //Equip Slots
                 savegameBr.BaseStream.Position = 0x3CCC4;
                 byte digimonPartySlot1EquipSlots = savegameBr.ReadByte();
@@ -212,19 +212,19 @@ namespace DigimonStorySaveEditor
                 numericUpDownCSDigimonPartySlot1BonusSpeed.Value = digimonPartySlot1BonusSpeedDec;
 
                 //CAM
-                savegameBr.BaseStream.Position = 0x3CB4A;
+                savegameBr.BaseStream.Position = 0x3CB4C;
                 byte[] digimonPartySlot1CAM = savegameBr.ReadBytes(2);
                 short digimonPartySlot1CAMDec = BitConverter.ToInt16(digimonPartySlot1CAM, 0);
                 numericUpDownCSDigimonPartySlot1CAM.Value = (digimonPartySlot1CAMDec);
 
                 //ABI
-                savegameBr.BaseStream.Position = 0x3CB4C;
+                savegameBr.BaseStream.Position = 0x3CB4A;
                 byte[] digimonPartySlot1ABI = savegameBr.ReadBytes(2);
                 short digimonPartySlot1ABIDec = BitConverter.ToInt16(digimonPartySlot1ABI, 0);
                 numericUpDownCSDigimonPartySlot1ABI.Value = digimonPartySlot1ABIDec;
                 #endregion
 
-                #region Equipment
+                #region Equipment1
                 //Equip 1
                 savegameBr.BaseStream.Position = 0x3CCC6;
                 byte[] digimonPartySlot1Equip1 = savegameBr.ReadBytes(2);
@@ -250,7 +250,7 @@ namespace DigimonStorySaveEditor
                 comboBoxCSDigimonPartySlot1Accessory.Text = convertAccessoryIDtoString(digimonPartySlot1AccessoryDec);
                 #endregion
 
-                #region CurrentSkills
+                #region CurrentSkills1
                 //Current Skill 1
                 savegameBr.BaseStream.Position = 0x3CB50;
                 byte digimonPartySlot1CurrentSkill1Inherited = savegameBr.ReadByte();
@@ -336,7 +336,7 @@ namespace DigimonStorySaveEditor
                 }
                 #endregion
 
-                #region LearnedSkills
+                #region LearnedSkills1
                 //Learned Skill 1
 
 
@@ -350,6 +350,312 @@ namespace DigimonStorySaveEditor
             }
             #endregion
 
+            #region DigimonPartySlot2
+            #region Main2
+            //Check to see if it exists
+            savegameBr.BaseStream.Position = 0x;
+            if (savegameBr.ReadByte() != 0)
+            {
+                //ID
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2ID = savegameBr.ReadBytes(2);
+
+                //Not sure if this is needed
+                //if (BitConverter.IsLittleEndian != true)
+                //{                            
+                //    Array.Reverse(digimonSlot2ID);
+                //}
+
+                short digimonPartySlot2IDDec = BitConverter.ToInt16(digimonPartySlot2ID, 0);
+                comboBoxCSDigimonPartySlot2ID.Text = convertDigimonIDtoString(digimonPartySlot2IDDec);
+
+                //Nickname
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Nickname = savegameBr.ReadBytes(17);
+                string digimonPartySlot2NicknameDec = Encoding.ASCII.GetString(digimonPartySlot2Nickname);
+                textBoxCSDigimonPartySlot2Nickname.Text = digimonPartySlot2NicknameDec;
+
+                //Digivolution
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2Digivolution = savegameBr.ReadByte();
+                comboBoxCSDigimonPartySlot2Digivolution.Text = convertDigivolutionIDtoString(digimonPartySlot2Digivolution);
+
+                //Type
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2Type = savegameBr.ReadByte();
+                comboBoxCSDigimonPartySlot2Type.Text = convertTypeIDtoString(digimonPartySlot2Type);
+
+                //Attribute
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2Attribute = savegameBr.ReadByte();
+                comboBoxCSDigimonPartySlot2Attribute.Text = convertAttributeIDtoString(digimonPartySlot2Attribute);
+
+                //Personality
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2Personality = savegameBr.ReadByte();
+                comboBoxCSDigimonPartySlot2Personality.Text = convertPersonalityIDtoString(digimonPartySlot2Personality);
+
+                //Support Skills
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2SupportSkill = savegameBr.ReadByte();
+                comboBoxCSDigmonPartySlot2SupportSkill.Text = convertsupportSkillsIDtoString(digimonPartySlot2SupportSkill);
+                #endregion
+
+                #region Stats2
+                //Equip Slots
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2EquipSlots = savegameBr.ReadByte();
+                numericUpDownCSDigimonPartySlot2EquipSlots.Value = digimonPartySlot2EquipSlots;
+
+                //Memory Use
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2Memory = savegameBr.ReadByte();
+                numericUpDownCSDigimonPartySlot2Memory.Value = digimonPartySlot2Memory;
+
+                //EXP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2EXP = savegameBr.ReadBytes(4);
+                int digimonPartySlot2EXPDec = BitConverter.ToInt32(digimonPartySlot2EXP, 0);
+                numericUpDownCSDigimonPartySlot2EXP.Value = digimonPartySlot2EXPDec;
+
+                //Current Level
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentLVL = savegameBr.ReadByte();
+                numericUpDownCSDigimonPartySlot2CurrentLVL.Value = digimonPartySlot2CurrentLVL;
+
+                //Max Level
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2MaxLVL = savegameBr.ReadByte();
+                numericUpDownCSDigimonPartySlot2MaxLVL.Value = digimonPartySlot2MaxLVL;
+
+                //Extra Max Level
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2ExtraMaxLVL = savegameBr.ReadByte();
+                numericUpDownCSDigimonPartySlot2ExtraMaxLVL.Value = digimonPartySlot2ExtraMaxLVL;
+
+                //Current HP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2CurrentHP = savegameBr.ReadBytes(2);
+                short digimonPartySlot2CurrentHPDec = BitConverter.ToInt16(digimonPartySlot2CurrentHP, 0);
+                numericUpDownCSDigimonPartySlot2CurrentHP.Value = digimonPartySlot2CurrentHPDec;
+
+                //Max HP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2MaxHP = savegameBr.ReadBytes(2);
+                short digimonPartySlot2MaxHPDec = BitConverter.ToInt16(digimonPartySlot2MaxHP, 0);
+                numericUpDownCSDigimonPartySlot2MaxHP.Value = digimonPartySlot2MaxHPDec * 10;
+
+                //Bonus HP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2BonusHP = savegameBr.ReadBytes(2);
+                short digimonPartySlot2BonusHPDec = BitConverter.ToInt16(digimonPartySlot2BonusHP, 0);
+                numericUpDownCSDigimonPartySlot2BonusHP.Value = digimonPartySlot2BonusHPDec;
+
+                //Current SP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2CurrentSP = savegameBr.ReadBytes(2);
+                short digimonPartySlot2CurrentSPDec = BitConverter.ToInt16(digimonPartySlot2CurrentSP, 0);
+                numericUpDownCSDigimonPartySlot2CurrentSP.Value = digimonPartySlot2CurrentSPDec;
+
+                //Max SP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2MaxSP = savegameBr.ReadBytes(2);
+                short digimonPartySlot2MaxSPDec = BitConverter.ToInt16(digimonPartySlot2MaxSP, 0);
+                numericUpDownCSDigimonPartySlot2MaxSP.Value = digimonPartySlot2MaxSPDec;
+
+                //Bonus SP
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2BonusSP = savegameBr.ReadBytes(2);
+                short digimonPartySlot2BonusSPDec = BitConverter.ToInt16(digimonPartySlot2BonusSP, 0);
+                numericUpDownCSDigimonPartySlot2BonusSP.Value = digimonPartySlot2BonusSPDec;
+
+                //Attack
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Attack = savegameBr.ReadBytes(2);
+                short digimonPartySlot2AttackDec = BitConverter.ToInt16(digimonPartySlot2Attack, 0);
+                numericUpDownCSDigimonPartySlot2Attack.Value = digimonPartySlot2AttackDec;
+
+                //Bonus Attack
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2BonusAttack = savegameBr.ReadBytes(2);
+                short digimonPartySlot2BonusAttackDec = BitConverter.ToInt16(digimonPartySlot2BonusAttack, 0);
+                numericUpDownCSDigimonPartySlot2BonusAttack.Value = digimonPartySlot2BonusAttackDec;
+
+                //Defense
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Defense = savegameBr.ReadBytes(2);
+                short digimonPartySlot2DefenseDec = BitConverter.ToInt16(digimonPartySlot2Defense, 0);
+                numericUpDownCSDigimonPartySlot2Defense.Value = digimonPartySlot2DefenseDec;
+
+                //Bonus Defense
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2BonusDefense = savegameBr.ReadBytes(2);
+                short digimonPartySlot2BonusDefenseDec = BitConverter.ToInt16(digimonPartySlot2BonusDefense, 0);
+                numericUpDownCSDigimonPartySlot2BonusDefense.Value = digimonPartySlot2BonusDefenseDec;
+
+                //Intelligence
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Intelligence = savegameBr.ReadBytes(2);
+                short digimonPartySlot2IntelligenceDec = BitConverter.ToInt16(digimonPartySlot2Intelligence, 0);
+                numericUpDownCSDigimonPartySlot2Intelligence.Value = digimonPartySlot2IntelligenceDec;
+
+                //Bonus Intelligence
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2BonusIntelligence = savegameBr.ReadBytes(2);
+                short digimonPartySlot2BonusIntelligenceDec = BitConverter.ToInt16(digimonPartySlot2BonusIntelligence, 0);
+                numericUpDownCSDigimonPartySlot2BonusIntelligence.Value = digimonPartySlot2BonusIntelligenceDec;
+
+                //Speed
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Speed = savegameBr.ReadBytes(2);
+                short digimonPartySlot2SpeedDec = BitConverter.ToInt16(digimonPartySlot2Speed, 0);
+                numericUpDownCSDigimonPartySlot2Speed.Value = digimonPartySlot2SpeedDec;
+
+                //Bonus Speed
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2BonusSpeed = savegameBr.ReadBytes(2);
+                short digimonPartySlot2BonusSpeedDec = BitConverter.ToInt16(digimonPartySlot2BonusSpeed, 0);
+                numericUpDownCSDigimonPartySlot2BonusSpeed.Value = digimonPartySlot2BonusSpeedDec;
+
+                //CAM
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2CAM = savegameBr.ReadBytes(2);
+                short digimonPartySlot2CAMDec = BitConverter.ToInt16(digimonPartySlot2CAM, 0);
+                numericUpDownCSDigimonPartySlot2CAM.Value = (digimonPartySlot2CAMDec);
+
+                //ABI
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2ABI = savegameBr.ReadBytes(2);
+                short digimonPartySlot2ABIDec = BitConverter.ToInt16(digimonPartySlot2ABI, 0);
+                numericUpDownCSDigimonPartySlot2ABI.Value = digimonPartySlot2ABIDec;
+                #endregion
+
+                #region Equipment
+                //Equip 1
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Equip1 = savegameBr.ReadBytes(2);
+                short digimonPartySlot2Equip1Dec = BitConverter.ToInt16(digimonPartySlot2Equip1, 0);
+                comboBoxCSDigimonPartySlot2Equip1.Text = convertEquipIDtoString(digimonPartySlot2Equip1Dec);
+
+                //Equip 2
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Equip2 = savegameBr.ReadBytes(2);
+                short digimonPartySlot2Equip2Dec = BitConverter.ToInt16(digimonPartySlot2Equip2, 0);
+                comboBoxCSDigimonPartySlot2Equip2.Text = convertEquipIDtoString(digimonPartySlot2Equip2Dec);
+
+                //Equip 3
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Equip3 = savegameBr.ReadBytes(2);
+                short digimonPartySlot2Equip3Dec = BitConverter.ToInt16(digimonPartySlot2Equip3, 0);
+                comboBoxCSDigimonPartySlot2Equip3.Text = convertEquipIDtoString(digimonPartySlot2Equip3Dec);
+
+                //Accessory
+                savegameBr.BaseStream.Position = 0x;
+                byte[] digimonPartySlot2Accessory = savegameBr.ReadBytes(2);
+                short digimonPartySlot2AccessoryDec = BitConverter.ToInt16(digimonPartySlot2Accessory, 0);
+                comboBoxCSDigimonPartySlot2Accessory.Text = convertAccessoryIDtoString(digimonPartySlot2AccessoryDec);
+                #endregion
+
+                #region CurrentSkills2
+                //Current Skill 1
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentSkill1Inherited = savegameBr.ReadByte();
+                if (digimonPartySlot2CurrentSkill1Inherited > 1)
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill1None.Checked = true;
+                }
+                else
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill1Inherited.Checked = Convert.ToBoolean(digimonPartySlot2CurrentSkill1Inherited);
+                    savegameBr.BaseStream.Position = 0x;
+                    comboBoxCSDigimonPartySlot2CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
+                }
+
+                //Current Skill 2
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentSkill2Inherited = savegameBr.ReadByte();
+                if (digimonPartySlot2CurrentSkill2Inherited > 1)
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill2None.Checked = true;
+                }
+                else
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill2Inherited.Checked = Convert.ToBoolean(digimonPartySlot2CurrentSkill2Inherited);
+                    savegameBr.BaseStream.Position = 0x;
+                    comboBoxCSDigimonPartySlot2CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
+                }
+
+                //Current Skill 3
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentSkill3Inherited = savegameBr.ReadByte();
+                if (digimonPartySlot2CurrentSkill3Inherited > 1)
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill3None.Checked = true;
+                }
+                else
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill3Inherited.Checked = Convert.ToBoolean(digimonPartySlot2CurrentSkill3Inherited);
+                    savegameBr.BaseStream.Position = 0x;
+                    comboBoxCSDigimonPartySlot2CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
+                }
+
+                //Current Skill 4
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentSkill4Inherited = savegameBr.ReadByte();
+                if (digimonPartySlot2CurrentSkill4Inherited > 1)
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill4None.Checked = true;
+                }
+                else
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill4Inherited.Checked = Convert.ToBoolean(digimonPartySlot2CurrentSkill4Inherited);
+                    savegameBr.BaseStream.Position = 0x;
+                    comboBoxCSDigimonPartySlot2CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
+                }
+
+                //Current Skill 5
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentSkill5Inherited = savegameBr.ReadByte();
+                if (digimonPartySlot2CurrentSkill5Inherited > 1)
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill5None.Checked = true;
+                }
+                else
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill5Inherited.Checked = Convert.ToBoolean(digimonPartySlot2CurrentSkill5Inherited);
+                    savegameBr.BaseStream.Position = 0x;
+                    comboBoxCSDigimonPartySlot2CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
+                }
+
+                //Current Skill 6
+                savegameBr.BaseStream.Position = 0x;
+                byte digimonPartySlot2CurrentSkill6Inherited = savegameBr.ReadByte();
+                if (digimonPartySlot2CurrentSkill6Inherited > 1)
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill6None.Checked = true;
+                }
+                else
+                {
+                    checkBoxCSDigimonPartySlot2CurrentSkill6Inherited.Checked = Convert.ToBoolean(digimonPartySlot2CurrentSkill6Inherited);
+                    savegameBr.BaseStream.Position = 0x;
+                    comboBoxCSDigimonPartySlot2CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
+                }
+                #endregion
+
+                #region LearnedSkills2
+                //Learned Skill 1
+
+
+                #endregion
+                getDigimonPortraits(1);
+            }
+
+            else
+            {
+                checkBoxCSDigimonPartySlot2None.Checked = true;
+            }
+            #endregion
+
             savegameBr.Close();
         }
 
@@ -360,7 +666,7 @@ namespace DigimonStorySaveEditor
 
             //Save first Digimon In Party data
             #region DigimonPartySlot1
-            #region Main
+            #region Main1
             //ID
             byte[] digimonPartySlot1IDSet = BitConverter.GetBytes(convertStringtoDigimonID(comboBoxCSDigimonPartySlot1ID.Text));
             saveOpen.Position = 0x3CAAC;
@@ -403,7 +709,7 @@ namespace DigimonStorySaveEditor
             saveWrite.Write(digimonPartySlot1SupportSkillSet);
             #endregion
 
-            #region Stats
+            #region Stats1
             //Equip Slots
             byte[] digimonPartySlot1EquipSlotsSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot1EquipSlots.Value);
             saveOpen.Position = 0x3CCC4;
@@ -515,7 +821,7 @@ namespace DigimonStorySaveEditor
             saveWrite.Write(digimonPartySlot1ABISet);
             #endregion
 
-            #region Equipment
+            #region Equipment1
             //Equip 1
             byte[] digimonPartySlot1Equip1Set = BitConverter.GetBytes(convertStringtoEquipID(comboBoxCSDigimonPartySlot1Equip1.Text));
             saveOpen.Position = 0x3CCC6;
@@ -537,7 +843,7 @@ namespace DigimonStorySaveEditor
             saveWrite.Write(digimonPartySlot1AccessorySet);
             #endregion
 
-            #region CurrentSkills
+            #region CurrentSkills1
             //Current Skill 1
             saveOpen.Position = 0x3CB50;
             if (checkBoxCSDigimonPartySlot1CurrentSkill1None.Checked || comboBoxCSDigimonPartySlot1CurrentSkill1.Text == "(None)")
@@ -648,6 +954,295 @@ namespace DigimonStorySaveEditor
 
             #endregion
 
+            //Save second Digimon In Party data
+            #region DigimonPartySlot2
+            #region Main2
+            //ID
+            byte[] digimonPartySlot2IDSet = BitConverter.GetBytes(convertStringtoDigimonID(comboBoxCSDigimonPartySlot2ID.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2IDSet);
+
+            //Nickname
+            byte[] digimonPartySlot2NicknameSet = Encoding.ASCII.GetBytes(textBoxCSDigimonPartySlot2Nickname.Text);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2NicknameSet);
+            if (digimonPartySlot2NicknameSet.Length < 17)
+            {
+                int bytesToAdd = 17 - digimonPartySlot2NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+
+            //Digivolution
+            byte[] digimonPartySlot2DigivolutionSet = BitConverter.GetBytes(convertStringtoDigivolutionID(comboBoxCSDigimonPartySlot2Digivolution.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2DigivolutionSet);
+
+            //Type
+            byte[] digimonPartySlot2TypeSet = BitConverter.GetBytes(convertStringtoTypeID(comboBoxCSDigimonPartySlot2Type.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2TypeSet);
+
+            //Attribute
+            byte[] digimonPartySlot2AttributeSet = BitConverter.GetBytes(convertStringtoAttributeID(comboBoxCSDigimonPartySlot2Attribute.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2AttributeSet);
+
+            //Personality
+            byte[] digimonPartySlot2PersonalitySet = BitConverter.GetBytes(convertStringtoPersonalityID(comboBoxCSDigimonPartySlot2Personality.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2PersonalitySet);
+
+            //Support Skills
+            byte[] digimonPartySlot2SupportSkillSet = BitConverter.GetBytes(convertStringtoSupportSkillID(comboBoxCSDigmonPartySlot2SupportSkill.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2SupportSkillSet);
+            #endregion
+
+            #region Stats2
+            //Equip Slots
+            byte[] digimonPartySlot2EquipSlotsSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2EquipSlots.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2EquipSlotsSet);
+
+            //Memory Use
+            byte[] digimonPartySlot2MemorySet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2Memory.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2MemorySet);
+
+            //EXP
+            byte[] digimonPartySlot2EXPSet = BitConverter.GetBytes((int)numericUpDownCSDigimonPartySlot2EXP.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2EXPSet);
+
+            //Current LVL
+            byte[] digimonPartySlot2CurrentLVLSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2CurrentLVL.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2CurrentLVLSet);
+
+            //Max Level
+            byte[] digimonPartySlot2MaxLVLSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2MaxLVL.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2MaxLVLSet);
+
+            //Extra Max Level
+            byte[] digimonPartySlot2ExtraMaxLVLSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2ExtraMaxLVL.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2ExtraMaxLVLSet);
+
+            //Current HP
+            byte[] digimonPartySlot2CurrentHPSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2CurrentHP.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2CurrentHPSet);
+
+            //Max HP
+            byte[] digimonPartySlot2MaxHPSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2MaxHP.Value / 10);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2MaxHPSet);
+
+            //Bonus HP
+            byte[] digimonPartySlot2BonusHPSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2BonusHP.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2BonusHPSet);
+
+            //Current SP
+            byte[] digimonPartySlot2CurrentSPSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2CurrentSP.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2CurrentSPSet);
+
+            //Max SP
+            byte[] digimonPartySlot2MaxSPSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2MaxSP.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2MaxSPSet);
+
+            //Bonus SP
+            byte[] digimonPartySlot2BonusSPSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2BonusSP.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2BonusSPSet);
+
+            //Attack
+            byte[] digimonPartySlot2AttackSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2Attack.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2AttackSet);
+
+            //Bonus Attack
+            byte[] digimonPartySlot2BonusAttackSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2BonusAttack.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2BonusAttackSet);
+
+            //Defense
+            byte[] digimonPartySlot2DefenseSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2Defense.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2DefenseSet);
+
+            //Bonus Defense
+            byte[] digimonPartySlot2BonusDefenseSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2BonusDefense.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2BonusDefenseSet);
+
+            //Intelligence
+            byte[] digimonPartySlot2IntelligenceSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2Intelligence.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2IntelligenceSet);
+
+            //Bonus Intelligence
+            byte[] digimonPartySlot2BonusIntelligenceSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2BonusIntelligence.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2BonusIntelligenceSet);
+
+            //Speed
+            byte[] digimonPartySlot2SpeedSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2Speed.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2SpeedSet);
+
+            //Bonus Speed
+            byte[] digimonPartySlot2BonusSpeedSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2BonusSpeed.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2BonusSpeedSet);
+
+            //CAM
+            byte[] digimonPartySlot2CAMSet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2CAM.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2CAMSet);
+
+            //ABI
+            byte[] digimonPartySlot2ABISet = BitConverter.GetBytes((short)numericUpDownCSDigimonPartySlot2ABI.Value);
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2ABISet);
+            #endregion
+
+            #region Equipment2
+            //Equip 1
+            byte[] digimonPartySlot2Equip1Set = BitConverter.GetBytes(convertStringtoEquipID(comboBoxCSDigimonPartySlot2Equip1.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2Equip1Set);
+
+            //Equip 2
+            byte[] digimonPartySlot2Equip2Set = BitConverter.GetBytes(convertStringtoEquipID(comboBoxCSDigimonPartySlot2Equip2.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2Equip2Set);
+
+            //Equip 3
+            byte[] digimonPartySlot2Equip3Set = BitConverter.GetBytes(convertStringtoEquipID(comboBoxCSDigimonPartySlot2Equip3.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2Equip3Set);
+
+            //Accessory
+            byte[] digimonPartySlot2AccessorySet = BitConverter.GetBytes(convertStringtoAccessoryID(comboBoxCSDigimonPartySlot2Accessory.Text));
+            saveOpen.Position = 0x;
+            saveWrite.Write(digimonPartySlot2AccessorySet);
+            #endregion
+
+            #region CurrentSkills2
+            //Current Skill 1
+            saveOpen.Position = 0x;
+            if (checkBoxCSDigimonPartySlot2CurrentSkill1None.Checked || comboBoxCSDigimonPartySlot2CurrentSkill1.Text == "(None)")
+            {
+                byte[] empty = BitConverter.GetBytes(-1);
+                byte[] zero = BitConverter.GetBytes(0);
+                saveWrite.Write(empty);
+                saveOpen.Position = 0x;
+                saveWrite.Write(zero);
+            }
+            else
+            {
+                saveWrite.Write(checkBoxCSDigimonPartySlot2CurrentSkill1Inherited.Checked);
+                byte[] digimonPartySlot2CurrentSkill1Set = BitConverter.GetBytes(convertStringtoSkillID(comboBoxCSDigimonPartySlot2CurrentSkill1.Text));
+                saveOpen.Position = 0x;
+                saveWrite.Write(digimonPartySlot2CurrentSkill1Set);
+            }
+
+            //Current Skill 2
+            saveOpen.Position = 0x;
+            if (checkBoxCSDigimonPartySlot2CurrentSkill2None.Checked || comboBoxCSDigimonPartySlot2CurrentSkill2.Text == "(None)")
+            {
+                byte[] empty = BitConverter.GetBytes(-1);
+                byte[] zero = BitConverter.GetBytes(0);
+                saveWrite.Write(empty);
+                saveOpen.Position = 0x;
+                saveWrite.Write(zero);
+            }
+            else
+            {
+                saveWrite.Write(checkBoxCSDigimonPartySlot2CurrentSkill2Inherited.Checked);
+                byte[] digimonPartySlot2CurrentSkill2Set = BitConverter.GetBytes(convertStringtoSkillID(comboBoxCSDigimonPartySlot2CurrentSkill2.Text));
+                saveOpen.Position = 0x;
+                saveWrite.Write(digimonPartySlot2CurrentSkill2Set);
+            }
+
+            //Current Skill 3
+            saveOpen.Position = 0x;
+            if (checkBoxCSDigimonPartySlot2CurrentSkill3None.Checked || comboBoxCSDigimonPartySlot2CurrentSkill3.Text == "(None)")
+            {
+                byte[] empty = BitConverter.GetBytes(-1);
+                byte[] zero = BitConverter.GetBytes(0);
+                saveWrite.Write(empty);
+                saveOpen.Position = 0x;
+                saveWrite.Write(zero);
+            }
+            else
+            {
+                saveWrite.Write(checkBoxCSDigimonPartySlot2CurrentSkill3Inherited.Checked);
+                byte[] digimonPartySlot2CurrentSkill3Set = BitConverter.GetBytes(convertStringtoSkillID(comboBoxCSDigimonPartySlot2CurrentSkill3.Text));
+                saveOpen.Position = 0x;
+                saveWrite.Write(digimonPartySlot2CurrentSkill3Set);
+            }
+
+            //Current Skill 4
+            saveOpen.Position = 0x;
+            if (checkBoxCSDigimonPartySlot2CurrentSkill4None.Checked || comboBoxCSDigimonPartySlot2CurrentSkill4.Text == "(None)")
+            {
+                byte[] empty = BitConverter.GetBytes(-1);
+                byte[] zero = BitConverter.GetBytes(0);
+                saveWrite.Write(empty);
+                saveOpen.Position = 0x;
+                saveWrite.Write(zero);
+            }
+            else
+            {
+                saveWrite.Write(checkBoxCSDigimonPartySlot2CurrentSkill4Inherited.Checked);
+                byte[] digimonPartySlot2CurrentSkill4Set = BitConverter.GetBytes(convertStringtoSkillID(comboBoxCSDigimonPartySlot2CurrentSkill4.Text));
+                saveOpen.Position = 0x;
+                saveWrite.Write(digimonPartySlot2CurrentSkill4Set);
+            }
+
+            //Current Skill 5
+            saveOpen.Position = 0x;
+            if (checkBoxCSDigimonPartySlot2CurrentSkill5None.Checked || comboBoxCSDigimonPartySlot2CurrentSkill5.Text == "(None)")
+            {
+                byte[] empty = BitConverter.GetBytes(-1);
+                byte[] zero = BitConverter.GetBytes(0);
+                saveWrite.Write(empty);
+                saveOpen.Position = 0x;
+                saveWrite.Write(zero);
+            }
+            else
+            {
+                saveWrite.Write(checkBoxCSDigimonPartySlot2CurrentSkill5Inherited.Checked);
+                byte[] digimonPartySlot2CurrentSkill5Set = BitConverter.GetBytes(convertStringtoSkillID(comboBoxCSDigimonPartySlot2CurrentSkill5.Text));
+                saveOpen.Position = 0x;
+                saveWrite.Write(digimonPartySlot2CurrentSkill5Set);
+            }
+
+            //Current Skill 6
+            saveOpen.Position = 0x;
+            if (checkBoxCSDigimonPartySlot2CurrentSkill6None.Checked || comboBoxCSDigimonPartySlot2CurrentSkill6.Text == "(None)")
+            {
+                byte[] empty = BitConverter.GetBytes(-1);
+                byte[] zero = BitConverter.GetBytes(0);
+                saveWrite.Write(empty);
+                saveOpen.Position = 0x;
+                saveWrite.Write(zero);
+            }
+            else
+            {
+                saveWrite.Write(checkBoxCSDigimonPartySlot2CurrentSkill6Inherited.Checked);
+                byte[] digimonPartySlot2CurrentSkill6Set = BitConverter.GetBytes(convertStringtoSkillID(comboBoxCSDigimonPartySlot2CurrentSkill6.Text));
+                saveOpen.Position = 0x;
+                saveWrite.Write(digimonPartySlot2CurrentSkill6Set);
+            }
+
+            #endregion
             #endregion
             saveOpen.Close();
         }
