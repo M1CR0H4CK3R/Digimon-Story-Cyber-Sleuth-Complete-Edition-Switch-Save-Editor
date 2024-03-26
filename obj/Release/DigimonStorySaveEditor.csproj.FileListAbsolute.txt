@@ -1,0 +1,10 @@
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\bin\Release\DigimonStorySaveEditor.exe.config
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\bin\Release\DigimonStorySaveEditor.exe
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\bin\Release\DigimonStorySaveEditor.pdb
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.csproj.AssemblyReference.cache
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.MainMenu.resources
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.Properties.Resources.resources
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.csproj.GenerateResource.cache
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.csproj.CoreCompileInputs.cache
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.exe
+C:\Users\INDATA\Downloads\Digimon-Story-Cyber-Sleuth-Complete-Edition-Switch-Save-Editor-main\obj\Release\DigimonStorySaveEditor.pdb
