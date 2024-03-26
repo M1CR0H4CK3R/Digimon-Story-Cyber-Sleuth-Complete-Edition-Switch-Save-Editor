@@ -18,9 +18,9 @@ Also thanks to DrummerIX on FearLess Cheat Engine for the cheat table that I cro
 
 Big thanks to digidb.io from which I got all the Digimon portraits.
 
-Finally, shoutouts to Snodeca for her Dream Team save editor that I referenced when making this one!```
+Finally, shoutouts to Snodeca for her Dream Team save editor that I referenced when making this one!
 
 
 Additional Credits
-```Thanks to GreenMii for laying the ground work, and JoelCoehoorn on StackOverflow for the help refactoring a function that was causing longer than desired load times. Also thanks to Draken70 at GameFAQs for the awesome walkthrough for the first game that in particular had a (mostly correct) rank up table to reference.```
+Thanks to GreenMii for laying the ground work, and JoelCoehoorn on StackOverflow for the help refactoring a function that was causing longer than desired load times. Also thanks to Draken70 at GameFAQs for the awesome walkthrough for the first game that in particular had a (mostly correct) rank up table to reference.```
 
