@@ -1,11 +1,11 @@
 0:(None)
 1:Attack (1)
 2:Attack (2)
-3:Guard
+3:Guard 
 4:Escape
 5:Change
 6:Strategy
-7:Auto
+7:Auto  
 8:Can't escape!
 9:Could not escape!
 10:No more Digimon!
@@ -76,7 +76,7 @@
 1060:Sunshine Beam
 1061:Ice Blast
 1062:Mega Burst
-1063:Poop
+1063:Poop  
 1064:Meteor Shower
 1065:Spiking Strike
 1066:Crystal Cloud
@@ -367,7 +367,7 @@
 1357:Glare Eye
 1358:Smile Fang
 1359:Bubbles (2)
-1360:Bite
+1360:Bite  
 1361:Elastic Bubbles
 1362:Soap Flower
 1363:Air Bubbles
@@ -474,7 +474,7 @@
 3082:Panic Wisp
 3083:Ripping Net
 3084:Idle Bubble
-3085:Shock
+3085:Shock 
 3086:Texture Blow
 3087:Character Reversal
 3088:Destruction
@@ -497,10 +497,10 @@
 3105:Guard Break Field
 3106:Mental Break Field
 3107:Speed Break Field
-3108:Heal
+3108:Heal  
 3109:X-Heal (1)
 3110:Final Heal
-3111:Aura
+3111:Aura  
 3112:X-Aura
 3113:Final Aura
 3114:Revive
@@ -527,7 +527,7 @@
 3136:Escape Dash
 3137:Hit Charge
 3138:Dispel
-3500:Logon
+3500:Logon 
 3501:Overheat
 3502:Shooting...
 3503:Auto Repair
@@ -633,7 +633,7 @@
 3603:Analysis Complete (2)
 3604:Analysis Complete (3)
 3605:Analysis Complete (4)
-3606:Duel
+3606:Duel  
 3607:Break my illusion!
 3608:Show me your power.
 3609:The forefathers' sword?
@@ -664,7 +664,7 @@
 3634:Holy Knight Power Absorb
 3635:Data is converging! (1)
 3636:Data is converging! (2)
-3637:Undo
+3637:Undo  
 3638:Repair
 3639:Life Drain
 3640:Attack Charge Field (2)
@@ -733,7 +733,7 @@
 3703:Protection Gone!
 3704:Self-Restore
 3705:Tekeli-li
-3706:Curse
+3706:Curse 
 3707:Younger Sister Love
 3708:Older Sister Love
 3709:Normalize
