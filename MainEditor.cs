@@ -3287,9 +3287,15 @@ namespace DigimonStorySaveEditor
             byte[] CSDigimonPartySlot1NicknameSet = Encoding.ASCII.GetBytes(textBoxCSDigimonPartySlot1Nickname.Text);
             saveOpen.Position = 0x3CABC;
             saveWrite.Write(CSDigimonPartySlot1NicknameSet);
-            if (CSDigimonPartySlot1NicknameSet.Length < 17)
+            if (CSDigimonPartySlot1NicknameSet.Length < 19)
             {
-                int bytesToAdd = 17 - CSDigimonPartySlot1NicknameSet.Length;
+                int bytesToAdd = 19 - CSDigimonPartySlot1NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (CSDigimonPartySlot1NicknameSet.Length == -1)
+            {
+                int bytesToAdd = 19;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
@@ -3880,9 +3886,15 @@ namespace DigimonStorySaveEditor
             byte[] CSDigimonPartySlot2NicknameSet = Encoding.ASCII.GetBytes(textBoxCSDigimonPartySlot2Nickname.Text);
             saveOpen.Position = 0x3CCFC;
             saveWrite.Write(CSDigimonPartySlot2NicknameSet);
-            if (CSDigimonPartySlot2NicknameSet.Length < 17)
+            if (CSDigimonPartySlot2NicknameSet.Length < 19)
             {
-                int bytesToAdd = 17 - CSDigimonPartySlot2NicknameSet.Length;
+                int bytesToAdd = 19 - CSDigimonPartySlot2NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (CSDigimonPartySlot2NicknameSet.Length == -1)
+            {
+                int bytesToAdd = 19;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
@@ -4473,9 +4485,15 @@ namespace DigimonStorySaveEditor
             byte[] CSDigimonPartySlot3NicknameSet = Encoding.ASCII.GetBytes(textBoxCSDigimonPartySlot3Nickname.Text);
             saveOpen.Position = 0x3CF3C;
             saveWrite.Write(CSDigimonPartySlot3NicknameSet);
-            if (CSDigimonPartySlot3NicknameSet.Length < 17)
+            if (CSDigimonPartySlot3NicknameSet.Length < 19)
             {
-                int bytesToAdd = 17 - CSDigimonPartySlot3NicknameSet.Length;
+                int bytesToAdd = 19 - CSDigimonPartySlot3NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (CSDigimonPartySlot3NicknameSet.Length == -1)
+            {
+                int bytesToAdd = 19;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
@@ -5087,8 +5105,14 @@ namespace DigimonStorySaveEditor
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
-            //Save character gender in Cyber Sleuth character data
-            byte CSCharacterStatsCharacterGenderSet = convertStringtoGenderID(comboBoxCSCharacterStatsCharacterGender.Text);
+            else if (CSCharacterStatsCharacterNameSet.Length == -1)
+            {
+                int bytesToAdd = 7;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+                //Save character gender in Cyber Sleuth character data
+                byte CSCharacterStatsCharacterGenderSet = convertStringtoGenderID(comboBoxCSCharacterStatsCharacterGender.Text);
             saveOpen.Position = 0x4B980;
             saveWrite.Write(CSCharacterStatsCharacterGenderSet);
             //Save money in Cyber Sleuth character data
@@ -5119,9 +5143,15 @@ namespace DigimonStorySaveEditor
             byte[] HMDigimonPartySlot1NicknameSet = Encoding.ASCII.GetBytes(textBoxHMDigimonPartySlot1Nickname.Text);
             saveOpen.Position = (0x3CABC + hmOffset);
             saveWrite.Write(HMDigimonPartySlot1NicknameSet);
-            if (HMDigimonPartySlot1NicknameSet.Length < 17)
+            if (HMDigimonPartySlot1NicknameSet.Length < 19)
             {
-                int bytesToAdd = 17 - HMDigimonPartySlot1NicknameSet.Length;
+                int bytesToAdd = 19 - HMDigimonPartySlot1NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (HMDigimonPartySlot1NicknameSet.Length == -1)
+            {
+                int bytesToAdd = 19;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
@@ -5712,9 +5742,15 @@ namespace DigimonStorySaveEditor
             byte[] HMDigimonPartySlot2NicknameSet = Encoding.ASCII.GetBytes(textBoxHMDigimonPartySlot2Nickname.Text);
             saveOpen.Position = (0x3CCFC + hmOffset);
             saveWrite.Write(HMDigimonPartySlot2NicknameSet);
-            if (HMDigimonPartySlot2NicknameSet.Length < 17)
+            if (HMDigimonPartySlot2NicknameSet.Length < 19)
             {
-                int bytesToAdd = 17 - HMDigimonPartySlot2NicknameSet.Length;
+                int bytesToAdd = 19 - HMDigimonPartySlot2NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (HMDigimonPartySlot2NicknameSet.Length == -1)
+            {
+                int bytesToAdd = 19;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
@@ -6305,9 +6341,15 @@ namespace DigimonStorySaveEditor
             byte[] HMDigimonPartySlot3NicknameSet = Encoding.ASCII.GetBytes(textBoxHMDigimonPartySlot3Nickname.Text);
             saveOpen.Position = (0x3CF3C + hmOffset);
             saveWrite.Write(HMDigimonPartySlot3NicknameSet);
-            if (HMDigimonPartySlot3NicknameSet.Length < 17)
+            if (HMDigimonPartySlot3NicknameSet.Length < 19)
             {
-                int bytesToAdd = 17 - HMDigimonPartySlot3NicknameSet.Length;
+                int bytesToAdd = 19 - HMDigimonPartySlot3NicknameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (HMDigimonPartySlot3NicknameSet.Length == -1)
+            {
+                int bytesToAdd = 19;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
@@ -6913,9 +6955,15 @@ namespace DigimonStorySaveEditor
             byte[] HMCharacterStatsCharacterNameSet = Encoding.ASCII.GetBytes(textBoxHMCharacterStatsCharacterName.Text);
             saveOpen.Position = (0x4B984 + hmOffset);
             saveWrite.Write(HMCharacterStatsCharacterNameSet);
-            if (HMCharacterStatsCharacterNameSet.Length < 8)
+            if (HMCharacterStatsCharacterNameSet.Length < 7)
             {
-                int bytesToAdd = 8 - HMCharacterStatsCharacterNameSet.Length;
+                int bytesToAdd = 7 - HMCharacterStatsCharacterNameSet.Length;
+                byte[] extra1 = new byte[bytesToAdd];
+                saveWrite.Write(extra1);
+            }
+            else if (HMCharacterStatsCharacterNameSet.Length == -1)
+            {
+                int bytesToAdd = 7;
                 byte[] extra1 = new byte[bytesToAdd];
                 saveWrite.Write(extra1);
             }
