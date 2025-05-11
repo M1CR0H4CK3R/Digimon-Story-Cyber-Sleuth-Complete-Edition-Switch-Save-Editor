@@ -256,7 +256,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1CurrentSkill1Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1CurrentSkill1Inherited);
                     savegameBr.BaseStream.Position = 0x3CB54;
-                    comboBoxCSDigimonPartySlot1CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 2
                 savegameBr.BaseStream.Position = 0x3CB58;
@@ -269,7 +269,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1CurrentSkill2Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1CurrentSkill2Inherited);
                     savegameBr.BaseStream.Position = 0x3CB5C;
-                    comboBoxCSDigimonPartySlot1CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 3
                 savegameBr.BaseStream.Position = 0x3CB60;
@@ -282,7 +282,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1CurrentSkill3Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1CurrentSkill3Inherited);
                     savegameBr.BaseStream.Position = 0x3CB64;
-                    comboBoxCSDigimonPartySlot1CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 4
                 savegameBr.BaseStream.Position = 0x3CB68;
@@ -295,7 +295,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1CurrentSkill4Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1CurrentSkill4Inherited);
                     savegameBr.BaseStream.Position = 0x3CB6C;
-                    comboBoxCSDigimonPartySlot1CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 5
                 savegameBr.BaseStream.Position = 0x3CB70;
@@ -308,7 +308,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1CurrentSkill5Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1CurrentSkill5Inherited);
                     savegameBr.BaseStream.Position = 0x3CB74;
-                    comboBoxCSDigimonPartySlot1CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 6
                 savegameBr.BaseStream.Position = 0x3CB78;
@@ -321,7 +321,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1CurrentSkill6Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1CurrentSkill6Inherited);
                     savegameBr.BaseStream.Position = 0x3CB7C;
-                    comboBoxCSDigimonPartySlot1CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 #region LearnedSkills1
@@ -336,7 +336,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill1Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill1Inherited);
                     savegameBr.BaseStream.Position = 0x3CB84;
-                    comboBoxCSDigimonPartySlot1LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 2
                 savegameBr.BaseStream.Position = 0x3CB88;
@@ -349,7 +349,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill2Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill2Inherited);
                     savegameBr.BaseStream.Position = 0x3CB8C;
-                    comboBoxCSDigimonPartySlot1LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 3
                 savegameBr.BaseStream.Position = 0x3CB90;
@@ -362,7 +362,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill3Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill3Inherited);
                     savegameBr.BaseStream.Position = 0x3CB94;
-                    comboBoxCSDigimonPartySlot1LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 4
                 savegameBr.BaseStream.Position = 0x3CB98;
@@ -375,7 +375,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill4Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill4Inherited);
                     savegameBr.BaseStream.Position = 0x3CB9C;
-                    comboBoxCSDigimonPartySlot1LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 5
                 savegameBr.BaseStream.Position = 0x3CBA0;
@@ -388,7 +388,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill5Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill5Inherited);
                     savegameBr.BaseStream.Position = 0x3CBA4;
-                    comboBoxCSDigimonPartySlot1LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 6
                 savegameBr.BaseStream.Position = 0x3CBA8;
@@ -401,7 +401,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill6Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill6Inherited);
                     savegameBr.BaseStream.Position = 0x3CBAC;
-                    comboBoxCSDigimonPartySlot1LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 7
                 savegameBr.BaseStream.Position = 0x3CBB0;
@@ -414,7 +414,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill7Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill7Inherited);
                     savegameBr.BaseStream.Position = 0x3CBB4;
-                    comboBoxCSDigimonPartySlot1LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 8
                 savegameBr.BaseStream.Position = 0x3CBB8;
@@ -427,7 +427,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill8Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill8Inherited);
                     savegameBr.BaseStream.Position = 0x3CBBC;
-                    comboBoxCSDigimonPartySlot1LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 9
                 savegameBr.BaseStream.Position = 0x3CBC0;
@@ -440,7 +440,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill9Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill9Inherited);
                     savegameBr.BaseStream.Position = 0x3CBC4;
-                    comboBoxCSDigimonPartySlot1LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 10
                 savegameBr.BaseStream.Position = 0x3CBC8;
@@ -453,7 +453,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill10Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill10Inherited);
                     savegameBr.BaseStream.Position = 0x3CBCC;
-                    comboBoxCSDigimonPartySlot1LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 11
                 savegameBr.BaseStream.Position = 0x3CBD0;
@@ -466,7 +466,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill11Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill11Inherited);
                     savegameBr.BaseStream.Position = 0x3CBD4;
-                    comboBoxCSDigimonPartySlot1LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 12
                 savegameBr.BaseStream.Position = 0x3CBD8;
@@ -479,7 +479,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill12Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill12Inherited);
                     savegameBr.BaseStream.Position = 0x3CBDC;
-                    comboBoxCSDigimonPartySlot1LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 13
                 savegameBr.BaseStream.Position = 0x3CBE0;
@@ -492,7 +492,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill13Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill13Inherited);
                     savegameBr.BaseStream.Position = 0x3CBE4;
-                    comboBoxCSDigimonPartySlot1LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 14
                 savegameBr.BaseStream.Position = 0x3CBE8;
@@ -505,7 +505,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill14Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill14Inherited);
                     savegameBr.BaseStream.Position = 0x3CBEC;
-                    comboBoxCSDigimonPartySlot1LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 15
                 savegameBr.BaseStream.Position = 0x3CBF0;
@@ -518,7 +518,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill15Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill15Inherited);
                     savegameBr.BaseStream.Position = 0x3CBF4;
-                    comboBoxCSDigimonPartySlot1LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 16
                 savegameBr.BaseStream.Position = 0x3CBF8;
@@ -531,7 +531,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill16Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill16Inherited);
                     savegameBr.BaseStream.Position = 0x3CBFC;
-                    comboBoxCSDigimonPartySlot1LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 17
                 savegameBr.BaseStream.Position = 0x3CC00;
@@ -544,7 +544,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill17Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill17Inherited);
                     savegameBr.BaseStream.Position = 0x3CC04;
-                    comboBoxCSDigimonPartySlot1LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 18
                 savegameBr.BaseStream.Position = 0x3CC08;
@@ -557,7 +557,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill18Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill18Inherited);
                     savegameBr.BaseStream.Position = 0x3CC0C;
-                    comboBoxCSDigimonPartySlot1LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 19
                 savegameBr.BaseStream.Position = 0x3CC10;
@@ -570,7 +570,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill19Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill19Inherited);
                     savegameBr.BaseStream.Position = 0x3CC14;
-                    comboBoxCSDigimonPartySlot1LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 20
                 savegameBr.BaseStream.Position = 0x3CC18;
@@ -583,7 +583,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot1LearnedSkill20Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot1LearnedSkill20Inherited);
                     savegameBr.BaseStream.Position = 0x3CC1C;
-                    comboBoxCSDigimonPartySlot1LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot1LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 getDigimonPortraitsCS(1);
@@ -772,7 +772,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2CurrentSkill1Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2CurrentSkill1Inherited);
                     savegameBr.BaseStream.Position = 0x3CD94;
-                    comboBoxCSDigimonPartySlot2CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 2
                 savegameBr.BaseStream.Position = 0x3CD98;
@@ -785,7 +785,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2CurrentSkill2Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2CurrentSkill2Inherited);
                     savegameBr.BaseStream.Position = 0x3CD9C;
-                    comboBoxCSDigimonPartySlot2CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 3
                 savegameBr.BaseStream.Position = 0x3CDA0;
@@ -798,7 +798,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2CurrentSkill3Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2CurrentSkill3Inherited);
                     savegameBr.BaseStream.Position = 0x3CDA4;
-                    comboBoxCSDigimonPartySlot2CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 4
                 savegameBr.BaseStream.Position = 0x3CDA8;
@@ -811,7 +811,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2CurrentSkill4Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2CurrentSkill4Inherited);
                     savegameBr.BaseStream.Position = 0x3CDAC;
-                    comboBoxCSDigimonPartySlot2CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 5
                 savegameBr.BaseStream.Position = 0x3CDB0;
@@ -824,7 +824,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2CurrentSkill5Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2CurrentSkill5Inherited);
                     savegameBr.BaseStream.Position = 0x3CDB4;
-                    comboBoxCSDigimonPartySlot2CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 6
                 savegameBr.BaseStream.Position = 0x3CDB8;
@@ -837,7 +837,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2CurrentSkill6Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2CurrentSkill6Inherited);
                     savegameBr.BaseStream.Position = 0x3CDBC;
-                    comboBoxCSDigimonPartySlot2CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 #region LearnedSkills2
@@ -852,7 +852,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill1Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill1Inherited);
                     savegameBr.BaseStream.Position = 0x3CDC4;
-                    comboBoxCSDigimonPartySlot2LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 2
                 savegameBr.BaseStream.Position = 0x3CDC8;
@@ -865,7 +865,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill2Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill2Inherited);
                     savegameBr.BaseStream.Position = 0x3CDCC;
-                    comboBoxCSDigimonPartySlot2LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 3
                 savegameBr.BaseStream.Position = 0x3CDD0;
@@ -878,7 +878,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill3Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill3Inherited);
                     savegameBr.BaseStream.Position = 0x3CDD4;
-                    comboBoxCSDigimonPartySlot2LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 4
                 savegameBr.BaseStream.Position = 0x3CDD8;
@@ -891,7 +891,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill4Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill4Inherited);
                     savegameBr.BaseStream.Position = 0x3CDDC;
-                    comboBoxCSDigimonPartySlot2LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 5
                 savegameBr.BaseStream.Position = 0x3CDE0;
@@ -904,7 +904,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill5Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill5Inherited);
                     savegameBr.BaseStream.Position = 0x3CDE4;
-                    comboBoxCSDigimonPartySlot2LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 6
                 savegameBr.BaseStream.Position = 0x3CDE8;
@@ -917,7 +917,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill6Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill6Inherited);
                     savegameBr.BaseStream.Position = 0x3CDEC;
-                    comboBoxCSDigimonPartySlot2LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 7
                 savegameBr.BaseStream.Position = 0x3CDF0;
@@ -930,7 +930,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill7Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill7Inherited);
                     savegameBr.BaseStream.Position = 0x3CDF4;
-                    comboBoxCSDigimonPartySlot2LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 8
                 savegameBr.BaseStream.Position = 0x3CDF8;
@@ -943,7 +943,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill8Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill8Inherited);
                     savegameBr.BaseStream.Position = 0x3CDFC;
-                    comboBoxCSDigimonPartySlot2LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 9
                 savegameBr.BaseStream.Position = 0x3CE00;
@@ -956,7 +956,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill9Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill9Inherited);
                     savegameBr.BaseStream.Position = 0x3CE04;
-                    comboBoxCSDigimonPartySlot2LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 10
                 savegameBr.BaseStream.Position = 0x3CE08;
@@ -969,7 +969,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill10Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill10Inherited);
                     savegameBr.BaseStream.Position = 0x3CE0C;
-                    comboBoxCSDigimonPartySlot2LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 11
                 savegameBr.BaseStream.Position = 0x3CE10;
@@ -982,7 +982,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill11Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill11Inherited);
                     savegameBr.BaseStream.Position = 0x3CE14;
-                    comboBoxCSDigimonPartySlot2LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 12
                 savegameBr.BaseStream.Position = 0x3CE18;
@@ -995,7 +995,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill12Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill12Inherited);
                     savegameBr.BaseStream.Position = 0x3CE1C;
-                    comboBoxCSDigimonPartySlot2LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 13
                 savegameBr.BaseStream.Position = 0x3CE20;
@@ -1008,7 +1008,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill13Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill13Inherited);
                     savegameBr.BaseStream.Position = 0x3CE24;
-                    comboBoxCSDigimonPartySlot2LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 14
                 savegameBr.BaseStream.Position = 0x3CE28;
@@ -1021,7 +1021,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill14Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill14Inherited);
                     savegameBr.BaseStream.Position = 0x3CE2C;
-                    comboBoxCSDigimonPartySlot2LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 15
                 savegameBr.BaseStream.Position = 0x3CE30;
@@ -1034,7 +1034,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill15Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill15Inherited);
                     savegameBr.BaseStream.Position = 0x3CE34;
-                    comboBoxCSDigimonPartySlot2LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 16
                 savegameBr.BaseStream.Position = 0x3CE38;
@@ -1047,7 +1047,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill16Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill16Inherited);
                     savegameBr.BaseStream.Position = 0x3CE3C;
-                    comboBoxCSDigimonPartySlot2LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 17
                 savegameBr.BaseStream.Position = 0x3CE40;
@@ -1060,7 +1060,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill17Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill17Inherited);
                     savegameBr.BaseStream.Position = 0x3CE44;
-                    comboBoxCSDigimonPartySlot2LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 18
                 savegameBr.BaseStream.Position = 0x3CE48;
@@ -1073,7 +1073,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill18Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill18Inherited);
                     savegameBr.BaseStream.Position = 0x3CE4C;
-                    comboBoxCSDigimonPartySlot2LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 19
                 savegameBr.BaseStream.Position = 0x3CE50;
@@ -1086,7 +1086,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill19Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill19Inherited);
                     savegameBr.BaseStream.Position = 0x3CE54;
-                    comboBoxCSDigimonPartySlot2LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 20
                 savegameBr.BaseStream.Position = 0x3CE58;
@@ -1099,7 +1099,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot2LearnedSkill20Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot2LearnedSkill20Inherited);
                     savegameBr.BaseStream.Position = 0x3CE5C;
-                    comboBoxCSDigimonPartySlot2LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot2LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 getDigimonPortraitsCS(2);
@@ -1288,7 +1288,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3CurrentSkill1Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3CurrentSkill1Inherited);
                     savegameBr.BaseStream.Position = 0x3CFD4;
-                    comboBoxCSDigimonPartySlot3CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 2
                 savegameBr.BaseStream.Position = 0x3CFD8;
@@ -1301,7 +1301,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3CurrentSkill2Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3CurrentSkill2Inherited);
                     savegameBr.BaseStream.Position = 0x3CFDC;
-                    comboBoxCSDigimonPartySlot3CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 3
                 savegameBr.BaseStream.Position = 0x3CFE0;
@@ -1314,7 +1314,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3CurrentSkill3Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3CurrentSkill3Inherited);
                     savegameBr.BaseStream.Position = 0x3CFE4;
-                    comboBoxCSDigimonPartySlot3CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 4
                 savegameBr.BaseStream.Position = 0x3CFE8;
@@ -1327,7 +1327,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3CurrentSkill4Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3CurrentSkill4Inherited);
                     savegameBr.BaseStream.Position = 0x3CFEC;
-                    comboBoxCSDigimonPartySlot3CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 5
                 savegameBr.BaseStream.Position = 0x3CFF0;
@@ -1340,7 +1340,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3CurrentSkill5Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3CurrentSkill5Inherited);
                     savegameBr.BaseStream.Position = 0x3CFF4;
-                    comboBoxCSDigimonPartySlot3CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 6
                 savegameBr.BaseStream.Position = 0x3CFF8;
@@ -1353,7 +1353,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3CurrentSkill6Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3CurrentSkill6Inherited);
                     savegameBr.BaseStream.Position = 0x3CFFC;
-                    comboBoxCSDigimonPartySlot3CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 #region LearnedSkills3
@@ -1368,7 +1368,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill1Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill1Inherited);
                     savegameBr.BaseStream.Position = 0x3D004;
-                    comboBoxCSDigimonPartySlot3LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 2
                 savegameBr.BaseStream.Position = 0x3D008;
@@ -1381,7 +1381,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill2Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill2Inherited);
                     savegameBr.BaseStream.Position = 0x3D00C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 3
                 savegameBr.BaseStream.Position = 0x3D010;
@@ -1394,7 +1394,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill3Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill3Inherited);
                     savegameBr.BaseStream.Position = 0x3D014;
-                    comboBoxCSDigimonPartySlot3LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 4
                 savegameBr.BaseStream.Position = 0x3D018;
@@ -1407,7 +1407,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill4Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill4Inherited);
                     savegameBr.BaseStream.Position = 0x3D01C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 5
                 savegameBr.BaseStream.Position = 0x3D020;
@@ -1420,7 +1420,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill5Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill5Inherited);
                     savegameBr.BaseStream.Position = 0x3D024;
-                    comboBoxCSDigimonPartySlot3LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 6
                 savegameBr.BaseStream.Position = 0x3D028;
@@ -1433,7 +1433,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill6Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill6Inherited);
                     savegameBr.BaseStream.Position = 0x3D02C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 7
                 savegameBr.BaseStream.Position = 0x3D030;
@@ -1446,7 +1446,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill7Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill7Inherited);
                     savegameBr.BaseStream.Position = 0x3D034;
-                    comboBoxCSDigimonPartySlot3LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 8
                 savegameBr.BaseStream.Position = 0x3D038;
@@ -1459,7 +1459,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill8Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill8Inherited);
                     savegameBr.BaseStream.Position = 0x3D03C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 9
                 savegameBr.BaseStream.Position = 0x3D040;
@@ -1472,7 +1472,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill9Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill9Inherited);
                     savegameBr.BaseStream.Position = 0x3D044;
-                    comboBoxCSDigimonPartySlot3LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 10
                 savegameBr.BaseStream.Position = 0x3D048;
@@ -1485,7 +1485,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill10Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill10Inherited);
                     savegameBr.BaseStream.Position = 0x3D04C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 11
                 savegameBr.BaseStream.Position = 0x3D050;
@@ -1498,7 +1498,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill11Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill11Inherited);
                     savegameBr.BaseStream.Position = 0x3D054;
-                    comboBoxCSDigimonPartySlot3LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 12
                 savegameBr.BaseStream.Position = 0x3D058;
@@ -1511,7 +1511,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill12Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill12Inherited);
                     savegameBr.BaseStream.Position = 0x3D05C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 13
                 savegameBr.BaseStream.Position = 0x3D060;
@@ -1524,7 +1524,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill13Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill13Inherited);
                     savegameBr.BaseStream.Position = 0x3D064;
-                    comboBoxCSDigimonPartySlot3LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 14
                 savegameBr.BaseStream.Position = 0x3D068;
@@ -1537,7 +1537,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill14Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill14Inherited);
                     savegameBr.BaseStream.Position = 0x3D06C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 15
                 savegameBr.BaseStream.Position = 0x3D070;
@@ -1550,7 +1550,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill15Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill15Inherited);
                     savegameBr.BaseStream.Position = 0x3D074;
-                    comboBoxCSDigimonPartySlot3LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 16
                 savegameBr.BaseStream.Position = 0x3D078;
@@ -1563,7 +1563,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill16Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill16Inherited);
                     savegameBr.BaseStream.Position = 0x3D07C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 17
                 savegameBr.BaseStream.Position = 0x3D080;
@@ -1576,7 +1576,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill17Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill17Inherited);
                     savegameBr.BaseStream.Position = 0x3D084;
-                    comboBoxCSDigimonPartySlot3LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 18
                 savegameBr.BaseStream.Position = 0x3D088;
@@ -1589,7 +1589,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill18Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill18Inherited);
                     savegameBr.BaseStream.Position = 0x3D08C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 19
                 savegameBr.BaseStream.Position = 0x3D090;
@@ -1602,7 +1602,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill19Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill19Inherited);
                     savegameBr.BaseStream.Position = 0x3D094;
-                    comboBoxCSDigimonPartySlot3LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 20
                 savegameBr.BaseStream.Position = 0x3D098;
@@ -1615,7 +1615,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxCSDigimonPartySlot3LearnedSkill20Inherited.Checked = Convert.ToBoolean(CSDigimonPartySlot3LearnedSkill20Inherited);
                     savegameBr.BaseStream.Position = 0x3D09C;
-                    comboBoxCSDigimonPartySlot3LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxCSDigimonPartySlot3LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 getDigimonPortraitsCS(3);
@@ -1853,7 +1853,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1CurrentSkill1Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1CurrentSkill1Inherited);
                     savegameBr.BaseStream.Position = (0x3CB54 + hmOffset);
-                    comboBoxHMDigimonPartySlot1CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 2
                 savegameBr.BaseStream.Position = (0x3CB58 + hmOffset);
@@ -1866,7 +1866,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1CurrentSkill2Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1CurrentSkill2Inherited);
                     savegameBr.BaseStream.Position = (0x3CB5C + hmOffset);
-                    comboBoxHMDigimonPartySlot1CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 3
                 savegameBr.BaseStream.Position = (0x3CB60 + hmOffset);
@@ -1879,7 +1879,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1CurrentSkill3Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1CurrentSkill3Inherited);
                     savegameBr.BaseStream.Position = (0x3CB64 + hmOffset);
-                    comboBoxHMDigimonPartySlot1CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 4
                 savegameBr.BaseStream.Position = (0x3CB68 + hmOffset);
@@ -1892,7 +1892,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1CurrentSkill4Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1CurrentSkill4Inherited);
                     savegameBr.BaseStream.Position = (0x3CB6C + hmOffset);
-                    comboBoxHMDigimonPartySlot1CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 5
                 savegameBr.BaseStream.Position = (0x3CB70 + hmOffset);
@@ -1905,7 +1905,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1CurrentSkill5Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1CurrentSkill5Inherited);
                     savegameBr.BaseStream.Position = (0x3CB74 + hmOffset);
-                    comboBoxHMDigimonPartySlot1CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 6
                 savegameBr.BaseStream.Position = (0x3CB78 + hmOffset);
@@ -1918,7 +1918,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1CurrentSkill6Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1CurrentSkill6Inherited);
                     savegameBr.BaseStream.Position = (0x3CB7C + hmOffset);
-                    comboBoxHMDigimonPartySlot1CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 #region HMLearnedSkills1
@@ -1933,7 +1933,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill1Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill1Inherited);
                     savegameBr.BaseStream.Position = (0x3CB84 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 2
                 savegameBr.BaseStream.Position = (0x3CB88 + hmOffset);
@@ -1946,7 +1946,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill2Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill2Inherited);
                     savegameBr.BaseStream.Position = (0x3CB8C + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 3
                 savegameBr.BaseStream.Position = (0x3CB90 + hmOffset);
@@ -1959,7 +1959,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill3Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill3Inherited);
                     savegameBr.BaseStream.Position = (0x3CB94 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 4
                 savegameBr.BaseStream.Position = (0x3CB98 + hmOffset);
@@ -1972,7 +1972,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill4Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill4Inherited);
                     savegameBr.BaseStream.Position = (0x3CB9C + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 5
                 savegameBr.BaseStream.Position = (0x3CBA0 + hmOffset);
@@ -1985,7 +1985,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill5Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill5Inherited);
                     savegameBr.BaseStream.Position = (0x3CBA4 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 6
                 savegameBr.BaseStream.Position = (0x3CBA8 + hmOffset);
@@ -1998,7 +1998,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill6Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill6Inherited);
                     savegameBr.BaseStream.Position = (0x3CBAC + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 7
                 savegameBr.BaseStream.Position = (0x3CBB0 + hmOffset);
@@ -2011,7 +2011,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill7Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill7Inherited);
                     savegameBr.BaseStream.Position = (0x3CBB4 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 8
                 savegameBr.BaseStream.Position = (0x3CBB8 + hmOffset);
@@ -2024,7 +2024,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill8Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill8Inherited);
                     savegameBr.BaseStream.Position = (0x3CBBC + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 9
                 savegameBr.BaseStream.Position = (0x3CBC0 + hmOffset);
@@ -2037,7 +2037,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill9Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill9Inherited);
                     savegameBr.BaseStream.Position = (0x3CBC4 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 10
                 savegameBr.BaseStream.Position = (0x3CBC8 + hmOffset);
@@ -2050,7 +2050,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill10Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill10Inherited);
                     savegameBr.BaseStream.Position = (0x3CBCC + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 11
                 savegameBr.BaseStream.Position = (0x3CBD0 + hmOffset);
@@ -2063,7 +2063,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill11Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill11Inherited);
                     savegameBr.BaseStream.Position = (0x3CBD4 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 12
                 savegameBr.BaseStream.Position = (0x3CBD8 + hmOffset);
@@ -2076,7 +2076,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill12Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill12Inherited);
                     savegameBr.BaseStream.Position = (0x3CBDC + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 13
                 savegameBr.BaseStream.Position = (0x3CBE0 + hmOffset);
@@ -2089,7 +2089,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill13Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill13Inherited);
                     savegameBr.BaseStream.Position = (0x3CBE4 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 14
                 savegameBr.BaseStream.Position = (0x3CBE8 + hmOffset);
@@ -2102,7 +2102,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill14Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill14Inherited);
                     savegameBr.BaseStream.Position = (0x3CBEC + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 15
                 savegameBr.BaseStream.Position = (0x3CBF0 + hmOffset);
@@ -2115,7 +2115,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill15Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill15Inherited);
                     savegameBr.BaseStream.Position = (0x3CBF4 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 16
                 savegameBr.BaseStream.Position = (0x3CBF8 + hmOffset);
@@ -2128,7 +2128,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill16Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill16Inherited);
                     savegameBr.BaseStream.Position = (0x3CBFC + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 17
                 savegameBr.BaseStream.Position = (0x3CC00 + hmOffset);
@@ -2141,7 +2141,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill17Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill17Inherited);
                     savegameBr.BaseStream.Position = (0x3CC04 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 18
                 savegameBr.BaseStream.Position = (0x3CC08 + hmOffset);
@@ -2154,7 +2154,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill18Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill18Inherited);
                     savegameBr.BaseStream.Position = (0x3CC0C + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 19
                 savegameBr.BaseStream.Position = (0x3CC10 + hmOffset);
@@ -2167,7 +2167,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill19Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill19Inherited);
                     savegameBr.BaseStream.Position = (0x3CC14 + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 20
                 savegameBr.BaseStream.Position = (0x3CC18 + hmOffset);
@@ -2180,7 +2180,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot1LearnedSkill20Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot1LearnedSkill20Inherited);
                     savegameBr.BaseStream.Position = (0x3CC1C + hmOffset);
-                    comboBoxHMDigimonPartySlot1LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot1LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 getDigimonPortraitsHM(1);
@@ -2369,7 +2369,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2CurrentSkill1Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2CurrentSkill1Inherited);
                     savegameBr.BaseStream.Position = (0x3CD94 + hmOffset);
-                    comboBoxHMDigimonPartySlot2CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 2
                 savegameBr.BaseStream.Position = (0x3CD98 + hmOffset);
@@ -2382,7 +2382,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2CurrentSkill2Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2CurrentSkill2Inherited);
                     savegameBr.BaseStream.Position = (0x3CD9C + hmOffset);
-                    comboBoxHMDigimonPartySlot2CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 3
                 savegameBr.BaseStream.Position = (0x3CDA0 + hmOffset);
@@ -2395,7 +2395,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2CurrentSkill3Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2CurrentSkill3Inherited);
                     savegameBr.BaseStream.Position = (0x3CDA4 + hmOffset);
-                    comboBoxHMDigimonPartySlot2CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 4
                 savegameBr.BaseStream.Position = (0x3CDA8 + hmOffset);
@@ -2408,7 +2408,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2CurrentSkill4Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2CurrentSkill4Inherited);
                     savegameBr.BaseStream.Position = (0x3CDAC + hmOffset);
-                    comboBoxHMDigimonPartySlot2CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 5
                 savegameBr.BaseStream.Position = (0x3CDB0 + hmOffset);
@@ -2421,7 +2421,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2CurrentSkill5Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2CurrentSkill5Inherited);
                     savegameBr.BaseStream.Position = (0x3CDB4 + hmOffset);
-                    comboBoxHMDigimonPartySlot2CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 6
                 savegameBr.BaseStream.Position = (0x3CDB8 + hmOffset);
@@ -2434,7 +2434,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2CurrentSkill6Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2CurrentSkill6Inherited);
                     savegameBr.BaseStream.Position = (0x3CDBC + hmOffset);
-                    comboBoxHMDigimonPartySlot2CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 #region HMLearnedSkills2
@@ -2449,7 +2449,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill1Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill1Inherited);
                     savegameBr.BaseStream.Position = (0x3CDC4 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 2
                 savegameBr.BaseStream.Position = (0x3CDC8 + hmOffset);
@@ -2462,7 +2462,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill2Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill2Inherited);
                     savegameBr.BaseStream.Position = (0x3CDCC + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 3
                 savegameBr.BaseStream.Position = (0x3CDD0 + hmOffset);
@@ -2475,7 +2475,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill3Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill3Inherited);
                     savegameBr.BaseStream.Position = (0x3CDD4 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 4
                 savegameBr.BaseStream.Position = (0x3CDD8 + hmOffset);
@@ -2488,7 +2488,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill4Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill4Inherited);
                     savegameBr.BaseStream.Position = (0x3CDDC + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 5
                 savegameBr.BaseStream.Position = (0x3CDE0 + hmOffset);
@@ -2501,7 +2501,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill5Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill5Inherited);
                     savegameBr.BaseStream.Position = (0x3CDE4 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 6
                 savegameBr.BaseStream.Position = (0x3CDE8 + hmOffset);
@@ -2514,7 +2514,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill6Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill6Inherited);
                     savegameBr.BaseStream.Position = (0x3CDEC + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 7
                 savegameBr.BaseStream.Position = (0x3CDF0 + hmOffset);
@@ -2527,7 +2527,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill7Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill7Inherited);
                     savegameBr.BaseStream.Position = (0x3CDF4 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 8
                 savegameBr.BaseStream.Position = (0x3CDF8 + hmOffset);
@@ -2540,7 +2540,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill8Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill8Inherited);
                     savegameBr.BaseStream.Position = (0x3CDFC + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 9
                 savegameBr.BaseStream.Position = (0x3CE00 + hmOffset);
@@ -2553,7 +2553,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill9Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill9Inherited);
                     savegameBr.BaseStream.Position = (0x3CE04 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 10
                 savegameBr.BaseStream.Position = (0x3CE08 + hmOffset);
@@ -2566,7 +2566,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill10Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill10Inherited);
                     savegameBr.BaseStream.Position = (0x3CE0C + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 11
                 savegameBr.BaseStream.Position = (0x3CE10 + hmOffset);
@@ -2579,7 +2579,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill11Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill11Inherited);
                     savegameBr.BaseStream.Position = (0x3CE14 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 12
                 savegameBr.BaseStream.Position = (0x3CE18 + hmOffset);
@@ -2592,7 +2592,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill12Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill12Inherited);
                     savegameBr.BaseStream.Position = (0x3CE1C + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 13
                 savegameBr.BaseStream.Position = (0x3CE20 + hmOffset);
@@ -2605,7 +2605,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill13Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill13Inherited);
                     savegameBr.BaseStream.Position = (0x3CE24 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 14
                 savegameBr.BaseStream.Position = (0x3CE28 + hmOffset);
@@ -2618,7 +2618,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill14Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill14Inherited);
                     savegameBr.BaseStream.Position = (0x3CE2C + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 15
                 savegameBr.BaseStream.Position = (0x3CE30 + hmOffset);
@@ -2631,7 +2631,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill15Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill15Inherited);
                     savegameBr.BaseStream.Position = (0x3CE34 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 16
                 savegameBr.BaseStream.Position = (0x3CE38 + hmOffset);
@@ -2644,7 +2644,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill16Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill16Inherited);
                     savegameBr.BaseStream.Position = (0x3CE3C + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 17
                 savegameBr.BaseStream.Position = (0x3CE40 + hmOffset);
@@ -2657,7 +2657,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill17Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill17Inherited);
                     savegameBr.BaseStream.Position = (0x3CE44 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 18
                 savegameBr.BaseStream.Position = (0x3CE48 + hmOffset);
@@ -2670,7 +2670,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill18Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill18Inherited);
                     savegameBr.BaseStream.Position = (0x3CE4C + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 19
                 savegameBr.BaseStream.Position = (0x3CE50 + hmOffset);
@@ -2683,7 +2683,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill19Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill19Inherited);
                     savegameBr.BaseStream.Position = (0x3CE54 + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 20
                 savegameBr.BaseStream.Position = (0x3CE58 + hmOffset);
@@ -2696,7 +2696,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot2LearnedSkill20Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot2LearnedSkill20Inherited);
                     savegameBr.BaseStream.Position = (0x3CE5C + hmOffset);
-                    comboBoxHMDigimonPartySlot2LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot2LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 getDigimonPortraitsHM(2);
@@ -2885,7 +2885,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3CurrentSkill1Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3CurrentSkill1Inherited);
                     savegameBr.BaseStream.Position = (0x3CFD4 + hmOffset);
-                    comboBoxHMDigimonPartySlot3CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3CurrentSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 2
                 savegameBr.BaseStream.Position = (0x3CFD8 + hmOffset);
@@ -2898,7 +2898,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3CurrentSkill2Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3CurrentSkill2Inherited);
                     savegameBr.BaseStream.Position = (0x3CFDC + hmOffset);
-                    comboBoxHMDigimonPartySlot3CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3CurrentSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 3
                 savegameBr.BaseStream.Position = (0x3CFE0 + hmOffset);
@@ -2911,7 +2911,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3CurrentSkill3Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3CurrentSkill3Inherited);
                     savegameBr.BaseStream.Position = (0x3CFE4 + hmOffset);
-                    comboBoxHMDigimonPartySlot3CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3CurrentSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 4
                 savegameBr.BaseStream.Position = (0x3CFE8 + hmOffset);
@@ -2924,7 +2924,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3CurrentSkill4Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3CurrentSkill4Inherited);
                     savegameBr.BaseStream.Position = (0x3CFEC + hmOffset);
-                    comboBoxHMDigimonPartySlot3CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3CurrentSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 5
                 savegameBr.BaseStream.Position = (0x3CFF0 + hmOffset);
@@ -2937,7 +2937,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3CurrentSkill5Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3CurrentSkill5Inherited);
                     savegameBr.BaseStream.Position = (0x3CFF4 + hmOffset);
-                    comboBoxHMDigimonPartySlot3CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3CurrentSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Current Skill 6
                 savegameBr.BaseStream.Position = (0x3CFF8 + hmOffset);
@@ -2950,7 +2950,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3CurrentSkill6Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3CurrentSkill6Inherited);
                     savegameBr.BaseStream.Position = (0x3CFFC + hmOffset);
-                    comboBoxHMDigimonPartySlot3CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3CurrentSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 #region HMLearnedSkills3
@@ -2965,7 +2965,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill1Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill1Inherited);
                     savegameBr.BaseStream.Position = (0x3D004 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill1.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 2
                 savegameBr.BaseStream.Position = (0x3D008 + hmOffset);
@@ -2978,7 +2978,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill2Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill2Inherited);
                     savegameBr.BaseStream.Position = (0x3D00C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill2.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 3
                 savegameBr.BaseStream.Position = (0x3D010 + hmOffset);
@@ -2991,7 +2991,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill3Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill3Inherited);
                     savegameBr.BaseStream.Position = (0x3D014 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill3.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 4
                 savegameBr.BaseStream.Position = (0x3D018 + hmOffset);
@@ -3004,7 +3004,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill4Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill4Inherited);
                     savegameBr.BaseStream.Position = (0x3D01C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill4.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 5
                 savegameBr.BaseStream.Position = (0x3D020 + hmOffset);
@@ -3017,7 +3017,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill5Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill5Inherited);
                     savegameBr.BaseStream.Position = (0x3D024 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill5.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 6
                 savegameBr.BaseStream.Position = (0x3D028 + hmOffset);
@@ -3030,7 +3030,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill6Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill6Inherited);
                     savegameBr.BaseStream.Position = (0x3D02C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill6.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 7
                 savegameBr.BaseStream.Position = (0x3D030 + hmOffset);
@@ -3043,7 +3043,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill7Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill7Inherited);
                     savegameBr.BaseStream.Position = (0x3D034 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill7.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 8
                 savegameBr.BaseStream.Position = (0x3D038 + hmOffset);
@@ -3056,7 +3056,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill8Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill8Inherited);
                     savegameBr.BaseStream.Position = (0x3D03C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill8.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 9
                 savegameBr.BaseStream.Position = (0x3D040 + hmOffset);
@@ -3069,7 +3069,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill9Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill9Inherited);
                     savegameBr.BaseStream.Position = (0x3D044 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill9.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 10
                 savegameBr.BaseStream.Position = (0x3D048 + hmOffset);
@@ -3082,7 +3082,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill10Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill10Inherited);
                     savegameBr.BaseStream.Position = (0x3D04C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill10.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 11
                 savegameBr.BaseStream.Position = (0x3D050 + hmOffset);
@@ -3095,7 +3095,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill11Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill11Inherited);
                     savegameBr.BaseStream.Position = (0x3D054 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill11.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 12
                 savegameBr.BaseStream.Position = (0x3D058 + hmOffset);
@@ -3108,7 +3108,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill12Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill12Inherited);
                     savegameBr.BaseStream.Position = (0x3D05C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill12.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 13
                 savegameBr.BaseStream.Position = (0x3D060 + hmOffset);
@@ -3121,7 +3121,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill13Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill13Inherited);
                     savegameBr.BaseStream.Position = (0x3D064 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill13.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 14
                 savegameBr.BaseStream.Position = (0x3D068 + hmOffset);
@@ -3134,7 +3134,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill14Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill14Inherited);
                     savegameBr.BaseStream.Position = (0x3D06C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill14.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 15
                 savegameBr.BaseStream.Position = (0x3D070 + hmOffset);
@@ -3147,7 +3147,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill15Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill15Inherited);
                     savegameBr.BaseStream.Position = (0x3D074 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill15.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 16
                 savegameBr.BaseStream.Position = (0x3D078 + hmOffset);
@@ -3160,7 +3160,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill16Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill16Inherited);
                     savegameBr.BaseStream.Position = (0x3D07C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill16.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 17
                 savegameBr.BaseStream.Position = (0x3D080 + hmOffset);
@@ -3173,7 +3173,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill17Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill17Inherited);
                     savegameBr.BaseStream.Position = (0x3D084 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill17.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 18
                 savegameBr.BaseStream.Position = (0x3D088 + hmOffset);
@@ -3186,7 +3186,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill18Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill18Inherited);
                     savegameBr.BaseStream.Position = (0x3D08C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill18.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 19
                 savegameBr.BaseStream.Position = (0x3D090 + hmOffset);
@@ -3199,7 +3199,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill19Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill19Inherited);
                     savegameBr.BaseStream.Position = (0x3D094 + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill19.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 //Learned Skill 20
                 savegameBr.BaseStream.Position = (0x3D098 + hmOffset);
@@ -3212,7 +3212,7 @@ namespace DigimonStorySaveEditor
                 {
                     checkBoxHMDigimonPartySlot3LearnedSkill20Inherited.Checked = Convert.ToBoolean(HMDigimonPartySlot3LearnedSkill20Inherited);
                     savegameBr.BaseStream.Position = (0x3D09C + hmOffset);
-                    comboBoxHMDigimonPartySlot3LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadUInt16());
+                    comboBoxHMDigimonPartySlot3LearnedSkill20.Text = convertSkillIDtoString(savegameBr.ReadInt16());
                 }
                 #endregion
                 getDigimonPortraitsHM(3);
@@ -6993,26 +6993,41 @@ namespace DigimonStorySaveEditor
         {
             int index = 0;
             string stringID;
-            if (ID < 10)
-                stringID = "00" + ID.ToString();
-            else if (ID > 9 && ID < 100)
-                stringID = "0" + ID.ToString();
-            else
-                stringID = ID.ToString();
+            switch (ID)
+            {
+                case -1:
+                    stringID = "65535";
+                    break;
+                case 0:
+                    stringID = "00000";
+                    break;
+                case short ID2 when (ID2 > 0 && ID2 < 10):
+                    stringID = ("0000" + ID.ToString());
+                    break;
+                case short ID2 when (ID2 > 9 && ID2 < 100):
+                    stringID = ("000" + ID.ToString());
+                    break;
+                case short ID2 when (ID2 > 99 && ID2 < 999):
+                    stringID = ("00" + ID.ToString());
+                    break;
+                default:
+                    stringID = "00000";
+                    break;
+            }
             while (digimonIDs[index].IndexOf(stringID) == -1)
             {
                 index++;
             }
-            return digimonIDs[index].Substring(stringID.Length + 1);
+            return digimonIDs[index].Substring(6);
         }
         short convertStringtoDigimonID(string name)
         {
-            int index = 0;
-            while (digimonIDs[index].IndexOf(":" + name) == -1)
-            {
-                index++;
-            }
-            return short.Parse(digimonIDs[index].Substring(0, digimonIDs[index].IndexOf(name) - 1));
+                int index = 0;
+                while (digimonIDs[index].IndexOf(name) == -1)
+                {
+                    index++;
+                }
+                return short.Parse(digimonIDs[index].Substring(0, 5));
         }
         string convertDigivolutionIDtoString(short ID)
         {
@@ -7291,11 +7306,35 @@ namespace DigimonStorySaveEditor
         string convertsupportSkillsIDtoString(short ID)
         {
             int index = 0;
-            while (supportSkills[index].IndexOf(ID.ToString()) == -1)
+            string stringID;
+            switch (ID)
+            {
+                case -1:
+                    stringID = "65535";
+                    break;
+                case 0:
+                    stringID = "00000";
+                    break;
+                case short ID2 when (ID2 < 10):
+                    stringID = "0000" + ID.ToString();
+                    break;
+
+                case short ID2 when (ID2 > 9 && ID2 < 100):
+                    stringID = "000" + ID.ToString();
+                    break;
+
+                case short ID2 when (ID2 > 99) && ID < 999:
+                    stringID = ("00" + ID.ToString());
+                    break;
+                default:
+                    stringID = "00000";
+                    break;
+            }
+            while (supportSkills[index].IndexOf(stringID) == -1)
             {
                 index++;
             }
-            return supportSkills[index].Substring(ID.ToString().Length + 1);
+            return supportSkills[index].Substring(6);
         }
         short convertStringtoSupportSkillID(string supportSkill)
         {
@@ -7304,16 +7343,32 @@ namespace DigimonStorySaveEditor
             {
                 index++;
             }
-            return short.Parse(supportSkills[index].Substring(0, supportSkills[index].IndexOf(supportSkill) - 1));
+            return short.Parse(supportSkills[index].Substring(0, 5));
         }
         string convertEquipIDtoString(short ID)
         {
             int index = 0;
+            string stringID;
+            switch (ID)
+            {
+                case -1:
+                    stringID = ("65535");
+                    break;
+                case 0:
+                    stringID = "00000";
+                    break;
+                case short ID2 when (ID2 > 300):
+                    stringID = ("00" + ID.ToString());
+                    break;
+                default:
+                    stringID = "00000";
+                    break;
+            }
             while (equipment[index].IndexOf(ID.ToString()) == -1)
             {
                 index++;
             }
-            return equipment[index].Substring(ID.ToString().Length + 1);
+            return equipment[index].Substring(6);
         }
         short convertStringtoEquipID(string equip)
         {
@@ -7322,16 +7377,32 @@ namespace DigimonStorySaveEditor
             {
                 index++;
             }
-            return short.Parse(equipment[index].Substring(0, equipment[index].IndexOf(equip) - 1));
+            return short.Parse(equipment[index].Substring(0, 5));
         }
         string convertAccessoryIDtoString(short ID)
         {
             int index = 0;
+            string stringID;
+            switch (ID)
+            {
+                case -1:
+                    stringID = "65535";
+                    break;
+                case 0:
+                    stringID = "00000";
+                    break;
+                case short ID2 when (ID2 > 10100 && ID2 < 32767):
+                    stringID = ID.ToString();
+                    break;
+                default:
+                    stringID = "00000";
+                    break;
+            }
             while (accessories[index].IndexOf(ID.ToString()) == -1)
             {
                 index++;
             }
-            return accessories[index].Substring(ID.ToString().Length + 1);
+            return accessories[index].Substring(6);
         }
         short convertStringtoAccessoryID(string accessory)
         {
@@ -7340,25 +7411,47 @@ namespace DigimonStorySaveEditor
             {
                 index++;
             }
-            return short.Parse(accessories[index].Substring(0, accessories[index].IndexOf(accessory) - 1));
+            return short.Parse(accessories[index].Substring(0, 5));
         }
-        string convertSkillIDtoString(ushort ID)
+        string convertSkillIDtoString(short ID)
         {
             int index = 0;
+            string stringID;
+            switch (ID)
+            {
+                case -1:
+                    stringID = "65535";
+                    break;
+                case 0:
+                    stringID = "00000";
+                    break;
+                case short ID2 when (ID2 > 0 && ID2 < 10):
+                    stringID = ("0000" + ID.ToString());
+                    break;
+                case short ID2 when (ID2 > 9 && ID2 < 100):
+                    stringID = ("000" + ID.ToString());
+                    break;
+                case short ID2 when (ID2 > 1000 && ID2 < 32767):
+                    stringID = ("0" + ID.ToString());
+                    break;
+                default:
+                    stringID = "00000";
+                    break;
+            }
             while (skills[index].IndexOf(ID.ToString()) == -1)
             {
                 index++;
             }
-            return skills[index].Substring(ID.ToString().Length + 1);
+            return skills[index].Substring(6);
         }
-        ushort convertStringtoSkillID(string skill)
+        short convertStringtoSkillID(string skill)
         {
             int index = 0;
             while (skills[index].IndexOf(skill) == -1)
             {
                 index++;
             }
-            return ushort.Parse(skills[index].Substring(0, skills[index].IndexOf(skill) - 1));
+            return short.Parse(skills[index].Substring(0, 5));
         }
         void getDigimonPortraitsCS(int slot)
         {
@@ -7429,7 +7522,7 @@ namespace DigimonStorySaveEditor
                     genderID = 2;
                     break;
                 default:
-                    genderID = 1;
+                    genderID = 0;
                     break;
             }
             return genderID;
