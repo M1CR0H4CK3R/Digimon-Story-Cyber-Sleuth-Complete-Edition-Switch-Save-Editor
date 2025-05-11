@@ -1,9 +1,10 @@
 # Digimon-Story-Cyber-Sleuth-Complete-Edition-Save-Editor
+
 For Switch version only!
 
 ![Screenshot of program](Screenshot.png "Screenshot of editor")
 
-Note: The original creator of this save editor has given their blessing for me to continue development of this save editor.
+Note: The original creator (GreenMii) of this save editor has given their blessing for me to continue development of this save editor.
 
 Work in progress. I am editing the code outside of GitHub on my PC, so even though updates to GitHub are sparse, work is steadily continuing regardless.
 
@@ -30,6 +31,10 @@ Finally, shoutouts to Snodeca for her Dream Team save editor that I referenced w
 ```
 
 ## Additional Credits:
-```
+
 Thanks to GreenMii for laying the ground work, and JoelCoehoorn on StackOverflow for the help refactoring a function that was causing longer than desired load times. Also thanks to Draken70 at GameFAQs for the awesome walkthrough for the first game that in particular had a (mostly correct) rank up table to reference.
-```
+
+
+## Building:
+
+This project requires Visual Studio Community 2017 to build (select the `.NET desktop development` Workload while installing), in addition to the [.NET Framework v4.7.2 Developer Pack](https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net472-developer-pack-offline-installer). Those are the only requirements. After installing both (Visual Studio Community 2017 will require a MSDN subscription, which is free to set up, but requires a Microsoft account that is at least 1 year old), just open the `DigimonStorySaveEditor.sln` file, open the `Build` menu at the top, open `Configuration Manager` and change to the `Release` channel (optional), click `OK`, then go to the `Build` menu again and click `Build Solution`. The files will be saved to the project's `/bin/Release/` or `/bin/Debug/` folder. To rebuild, first go to `Build > Clean Solution`, then run `Build > Build Solution` again, rather than selecting `Build > Rebuild Solution`, otherwise Visual Studio will hang until you cancel building.
