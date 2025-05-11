@@ -1,104 +1,105 @@
-0:(None)
-301:HP Attach E
-302:HP Attach D
-303:HP Attach C
-304:HP Attach B
-305:HP Attach A
-306:SP Attach E
-307:SP Attach D
-308:SP Attach C
-309:SP Attach B
-310:SP Attach A
-311:ATK Attach E
-312:ATK Attach D
-313:ATK Attach C
-314:ATK Attach B
-315:ATK Attach A
-316:DEF Attach E
-317:DEF Attach D
-318:DEF Attach C
-319:DEF Attach B
-320:DEF Attach A
-321:INT Attach E
-322:INT Attach D
-323:INT Attach C
-324:INT Attach B
-325:INT Attach A
-326:SPD Attach E
-327:SPD Attach D
-328:SPD Attach C
-329:SPD Attach B
-330:SPD Attach A
-331:HIT Attach C
-332:HIT Attach B
-333:HIT Attach A
-334:AGL Attach C
-335:AGL Attach B
-336:AGL Attach A
-337:CRT Attach C
-338:CRT Attach B
-339:CRT Attach A
-340:Energy Disk
-341:Cheerful Disk
-342:Tough Disk
-343:Soul Disk
-344:Charge Disk
-345:Oracle Disk
-346:Mind Disk
-347:Mage Disk
-348:Thief Disk
-349:Fighter Disk
-350:Sage Disk
-351:Assassin Disk
-352:Bishop Disk
-353:Monk Disk
-354:Spirit Disk
-355:Ranger Disk
-356:Feather Disk
-357:Gladiator Disk
-358:Master Disk
-359:Flare Guard
-360:Flare Guard DX
-361:Aqua Guard
-362:Aqua Guard DX
-363:Plant Guard
-364:Plant Guard DX
-365:Electric Guard
-366:Electric Guard DX
-367:Sand Guard
-368:Sand Guard DX
-369:Wind Guard
-370:Wind Guard DX
-371:Shine Guard
-372:Shine Guard DX
-373:Dark Guard
-374:Dark Guard DX
-375:Noise Guard
-376:Noise Guard DX
-377:Master Guard
-378:Poison Barrier
-379:Poison Barrier DX
-380:Panic Barrier
-381:Panic Barrier DX
-382:Paralysis Barrier
-383:Paralysis Barrier DX
-384:Sleep Barrier
-385:Sleep Barrier DX
-386:Stun Barrier
-387:Stun Barrier DX
-388:Pixel Barrier
-389:Pixel Barrier DX
-390:Bug Barrier
-391:Bug Barrier DX
-392:Death Barrier
-393:Death Barrier DX
-394:Master Barrier
-395:CAM USB
-396:Ninja USB
-397:Tactician USB
-398:Billionaire USB
-399:Large Capacity USB
-400:Researcher USB
-401:Yuugo Special Program
-402:Memetan Replica
-403:Pen Block 
+00000:(None)
+00301:HP Attach E
+00302:HP Attach D
+00303:HP Attach C
+00304:HP Attach B
+00305:HP Attach A
+00306:SP Attach E
+00307:SP Attach D
+00308:SP Attach C
+00309:SP Attach B
+00310:SP Attach A
+00311:ATK Attach E
+00312:ATK Attach D
+00313:ATK Attach C
+00314:ATK Attach B
+00315:ATK Attach A
+00316:DEF Attach E
+00317:DEF Attach D
+00318:DEF Attach C
+00319:DEF Attach B
+00320:DEF Attach A
+00321:INT Attach E
+00322:INT Attach D
+00323:INT Attach C
+00324:INT Attach B
+00325:INT Attach A
+00326:SPD Attach E
+00327:SPD Attach D
+00328:SPD Attach C
+00329:SPD Attach B
+00330:SPD Attach A
+00331:HIT Attach C
+00332:HIT Attach B
+00333:HIT Attach A
+00334:AGL Attach C
+00335:AGL Attach B
+00336:AGL Attach A
+00337:CRT Attach C
+00338:CRT Attach B
+00339:CRT Attach A
+00340:Energy Disk
+00341:Cheerful Disk
+00342:Tough Disk
+00343:Soul Disk
+00344:Charge Disk
+00345:Oracle Disk
+00346:Mind Disk
+00347:Mage Disk
+00348:Thief Disk
+00349:Fighter Disk
+00350:Sage Disk
+00351:Assassin Disk
+00352:Bishop Disk
+00353:Monk Disk
+00354:Spirit Disk
+00355:Ranger Disk
+00356:Feather Disk
+00357:Gladiator Disk
+00358:Master Disk
+00359:Flare Guard
+00360:Flare Guard DX
+00361:Aqua Guard
+00362:Aqua Guard DX
+00363:Plant Guard
+00364:Plant Guard DX
+00365:Electric Guard
+00366:Electric Guard DX
+00367:Sand Guard
+00368:Sand Guard DX
+00369:Wind Guard
+00370:Wind Guard DX
+00371:Shine Guard
+00372:Shine Guard DX
+00373:Dark Guard
+00374:Dark Guard DX
+00375:Noise Guard
+00376:Noise Guard DX
+00377:Master Guard
+00378:Poison Barrier
+00379:Poison Barrier DX
+00380:Panic Barrier
+00381:Panic Barrier DX
+00382:Paralysis Barrier
+00383:Paralysis Barrier DX
+00384:Sleep Barrier
+00385:Sleep Barrier DX
+00386:Stun Barrier
+00387:Stun Barrier DX
+00388:Pixel Barrier
+00389:Pixel Barrier DX
+00390:Bug Barrier
+00391:Bug Barrier DX
+00392:Death Barrier
+00393:Death Barrier DX
+00394:Master Barrier
+00395:CAM USB
+00396:Ninja USB
+00397:Tactician USB
+00398:Billionaire USB
+00399:Large Capacity USB
+00400:Researcher USB
+00401:Yuugo Special Program
+00402:Memetan Replica
+00403:Pen Block
+65535:(Empty)
