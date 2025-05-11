@@ -1,117 +1,118 @@
-0:Blank
-1:Dragon's Wrath
-2:Ironclad Defense
-3:Adroit Wisdom
-4:Feral Pulse
-5:Bull's-Eye
-6:Feint
-7:Haymaker
-8:Primal Trooper
-9:Dragon's Roar
-10:Deep Savers
-11:Nature Spirits
-12:Metal Empire
-13:Animal Colosseum
-14:Wind Guardians
-15:Justice Genome
-16:Nightmare Soldiers
-17:Flower Guard
-18:Supreme Focus
-19:Numbing Waves
-20:Full Functionality
-21:Immobility
-22:High Resolution
-23:Phoenix Feathers
-24:Poison Thorns
-25:Strange Dance
-26:Royal Commando
-27:Deep Sea Slumber
-28:Menace
-29:Trickster
-30:Destroyer
-31:Justice Union
-32:To Fight Another Day
-33:Platinum Bonus
-34:Millionaire
-35:Scavenge
-36:Analyze
-37:Fairy Protection
-38:Mysterious Scale
-39:Meditation
-40:Ocean Love
-41:Holy Ring
-42:Backwater Camp
-43:Fight or Flight
-44:Muscle Monkey Suit
-45:Hermitic Loner
-46:Swiftness
-47:Cadelfwlch Dive
-48:Holy Knight
-49:Obsidian Knight
-50:Master's Disposition
-51:Ironclad Fortification
-52:Mystic Protection
-53:All-Rounder
-54:Chaos Expert
-55:Wyvern
-56:Strategist
-57:Leopard Mode
-58:Battle Sense
-59:Miracle
-60:Unmatched Cruelty
-61:Wrath
-62:Greed
-63:Gluttony
-64:Sloth
-65:Furious Howl
-66:Envy
-67:Lust
-68:Pride
-69:Gehenna
-70:Dragon Mode
-71:Fighter Mode
-72:Holy Salvation
-73:Parallel World Tactician
-74:Destiny
-75:Innocent Eyes
-76:Aus Generics
-77:Moon-Kissed Blade
-78:Evil Heart
-79:Blaster
-80:D-Brigade
-81:Unstable Singularity
-82:Freyr
-83:Shining Burst
-84:Mirage Burst
-85:Crimson Foundation
-86:Tifaret
-87:Utopia
-88:Vampire
-89:Purge Shine
-90:Crimson Mode
-91:Human Spirit
-92:Beast Spirit
-93:Wind-Flame, Ice-Sword
-94:Dark-Lgt, Thunder-Cannon
-95:God of War
-96:Gekirin
-97:Tenryu
-98:Chiryu
-99:Blast Digivolution
-100:Feral Power
-101:Supervisor
-102:Cross Heart
-103:Infinity Dream
-104:Legend Arms
-105:Vampire King
-106:Platinum Service
-107:Digital Hazard
-108:Unwavering Defense
-109:NXEdge Style
-110:NXEdge Style
-111:NXEdge Style
-112:Counter-Attack
-113:NXEdge Style
-114:NXEdge Style
-115:Samurai Spirit
-116:Revelation
+00000:(None)
+00001:Dragon's Wrath
+00002:Ironclad Defense
+00003:Adroit Wisdom
+00004:Feral Pulse
+00005:Bull's-Eye
+00006:Feint
+00007:Haymaker
+00008:Primal Trooper
+00009:Dragon's Roar
+00010:Deep Savers
+00011:Nature Spirits
+00012:Metal Empire
+00013:Animal Colosseum
+00014:Wind Guardians
+00015:Justice Genome
+00016:Nightmare Soldiers
+00017:Flower Guard
+00018:Supreme Focus
+00019:Numbing Waves
+00020:Full Functionality
+00021:Immobility
+00022:High Resolution
+00023:Phoenix Feathers
+00024:Poison Thorns
+00025:Strange Dance
+00026:Royal Commando
+00027:Deep Sea Slumber
+00028:Menace
+00029:Trickster
+00030:Destroyer
+00031:Justice Union
+00032:To Fight Another Day
+00033:Platinum Bonus
+00034:Millionaire
+00035:Scavenge
+00036:Analyze
+00037:Fairy Protection
+00038:Mysterious Scale
+00039:Meditation
+00040:Ocean Love
+00041:Holy Ring
+00042:Backwater Camp
+00043:Fight or Flight
+00044:Muscle Monkey Suit
+00045:Hermitic Loner
+00046:Swiftness
+00047:Cadelfwlch Dive
+00048:Holy Knight
+00049:Obsidian Knight
+00050:Master's Disposition
+00051:Ironclad Fortification
+00052:Mystic Protection
+00053:All-Rounder
+00054:Chaos Expert
+00055:Wyvern
+00056:Strategist
+00057:Leopard Mode
+00058:Battle Sense
+00059:Miracle
+00060:Unmatched Cruelty
+00061:Wrath
+00062:Greed
+00063:Gluttony
+00064:Sloth
+00065:Furious Howl
+00066:Envy
+00067:Lust
+00068:Pride
+00069:Gehenna
+00070:Dragon Mode
+00071:Fighter Mode
+00072:Holy Salvation
+00073:Parallel World Tactician
+00074:Destiny
+00075:Innocent Eyes
+00076:Aus Generics
+00077:Moon-Kissed Blade
+00078:Evil Heart
+00079:Blaster
+00080:D-Brigade
+00081:Unstable Singularity
+00082:Freyr
+00083:Shining Burst
+00084:Mirage Burst
+00085:Crimson Foundation
+00086:Tifaret
+00087:Utopia
+00088:Vampire
+00089:Purge Shine
+00090:Crimson Mode
+00091:Human Spirit
+00092:Beast Spirit
+00093:Wind-Flame, Ice-Sword
+00094:Dark-Lgt, Thunder-Cannon
+00095:God of War
+00096:Gekirin
+00097:Tenryu
+00098:Chiryu
+00099:Blast Digivolution
+00100:Feral Power
+00101:Supervisor
+00102:Cross Heart
+00103:Infinity Dream
+00104:Legend Arms
+00105:Vampire King
+00106:Platinum Service
+00107:Digital Hazard
+00108:Unwavering Defense
+00109:NXEdge Style
+00110:NXEdge Style
+00111:NXEdge Style
+00112:Counter-Attack
+00113:NXEdge Style
+00114:NXEdge Style
+00115:Samurai Spirit
+00116:Revelation
+65535:(Empty)
